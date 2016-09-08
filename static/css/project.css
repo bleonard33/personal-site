@@ -1,0 +1,32 @@
+/* line 14, ../sass/project.scss */
+header {
+  padding: .5em 2em;
+  position: fixed;
+  width: 100%;
+}
+/* line 18, ../sass/project.scss */
+header h2 {
+  font-family: "Slabo 13px", serif;
+}
+/* line 21, ../sass/project.scss */
+header #nav-right {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 2em;
+  right: 0;
+  padding: 0 .25em;
+}
+/* line 29, ../sass/project.scss */
+header #nav-right li {
+  float: left;
+  font-size: 1.8em;
+  padding: 0 .25em;
+}
+
+/* line 37, ../sass/project.scss */
+#body-content {
+  width: 80%;
+  margin: auto;
+}

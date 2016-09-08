@@ -1,0 +1,40 @@
+//  Colors
+$grey: #8491A3;
+$blue: #6CD4FF;
+$green: #87D68D;
+$salsa: #F03a47;
+$berry: #8A4F7D;
+$seafoam: #05A8AA;
+$charcoal: #373F51;
+
+// Fonts
+$slab: 'Slabo 13px', serif;
+$sans: 'Source Sans Pro', sans-serif;
+
+header {
+  padding: .5em 2em;
+  position: fixed;
+  width: 100%;
+  h2 {
+    font-family: $slab;
+  }
+  #nav-right {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 2em;
+    right: 0;
+    padding: 0 .25em;
+    li {
+      float: left;
+      font-size: 1.8em;
+      padding: 0 .25em;
+    }
+  }
+}
+
+#body-content {
+  width: 80%;
+  margin: auto;
+}
