@@ -15,20 +15,22 @@ header {
   padding: .5em 2em;
   position: fixed;
   width: 100%;
-  h2 {
+  #title, #nav-right {
+    position: fixed;
+    top: 1em;
+    font-size: 1.8em;
+  }
+  #title {
     font-family: $slab;
   }
   #nav-right {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    position: fixed;
-    top: 2em;
     right: 0;
     padding: 0 .25em;
     li {
       float: left;
-      font-size: 1.8em;
       padding: 0 .25em;
     }
   }
@@ -37,4 +39,10 @@ header {
 #body-content {
   width: 80%;
   margin: auto;
+  div {
+    text-align: center;
+    margin-top: 300px;
+    font-size: 1.5em;
+    font-family: $sans;
+  }
 }

@@ -8966,28 +8966,38 @@ header {
   width: 100%;
 }
 /* line 18, ../sass/project.scss */
-header h2 {
+header #title, header #nav-right {
+  position: fixed;
+  top: 1em;
+  font-size: 1.8em;
+}
+/* line 23, ../sass/project.scss */
+header #title {
   font-family: "Slabo 13px", serif;
 }
-/* line 21, ../sass/project.scss */
+/* line 26, ../sass/project.scss */
 header #nav-right {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  position: fixed;
-  top: 2em;
   right: 0;
   padding: 0 .25em;
 }
-/* line 29, ../sass/project.scss */
+/* line 32, ../sass/project.scss */
 header #nav-right li {
   float: left;
-  font-size: 1.8em;
   padding: 0 .25em;
 }
 
-/* line 37, ../sass/project.scss */
+/* line 39, ../sass/project.scss */
 #body-content {
   width: 80%;
   margin: auto;
+}
+/* line 42, ../sass/project.scss */
+#body-content div {
+  text-align: center;
+  margin-top: 300px;
+  font-size: 1.5em;
+  font-family: "Source Sans Pro", sans-serif;
 }
