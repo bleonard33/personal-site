@@ -11,6 +11,10 @@ $charcoal: #373F51;
 $slab: 'Slabo 13px', serif;
 $sans: 'Source Sans Pro', sans-serif;
 
+body {
+  font-family: $sans;
+}
+
 header {
   padding: .5em 2em;
   position: fixed;
@@ -39,6 +43,7 @@ header {
 #body-content {
   width: 80%;
   margin: auto;
+  margin-top: 8em;
   div {
     text-align: center;
     margin-top: 300px;

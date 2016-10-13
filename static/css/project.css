@@ -1,20 +1,25 @@
 /* line 14, ../sass/project.scss */
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+/* line 18, ../sass/project.scss */
 header {
   padding: .5em 2em;
   position: fixed;
   width: 100%;
 }
-/* line 18, ../sass/project.scss */
+/* line 22, ../sass/project.scss */
 header #title, header #nav-right {
   position: fixed;
   top: 1em;
   font-size: 1.8em;
 }
-/* line 23, ../sass/project.scss */
+/* line 27, ../sass/project.scss */
 header #title {
   font-family: "Slabo 13px", serif;
 }
-/* line 26, ../sass/project.scss */
+/* line 30, ../sass/project.scss */
 header #nav-right {
   list-style-type: none;
   margin: 0;
@@ -22,18 +27,19 @@ header #nav-right {
   right: 0;
   padding: 0 .25em;
 }
-/* line 32, ../sass/project.scss */
+/* line 36, ../sass/project.scss */
 header #nav-right li {
   float: left;
   padding: 0 .25em;
 }
 
-/* line 39, ../sass/project.scss */
+/* line 43, ../sass/project.scss */
 #body-content {
   width: 80%;
   margin: auto;
+  margin-top: 8em;
 }
-/* line 42, ../sass/project.scss */
+/* line 47, ../sass/project.scss */
 #body-content div {
   text-align: center;
   margin-top: 300px;
