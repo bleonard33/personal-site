@@ -36,8 +36,29 @@ header {
     li {
       float: left;
       padding: 0 .25em;
+      a {
+        color: $grey;
+        &:hover {
+          color: $charcoal;
+        }
+      }
     }
   }
+}
+
+#color-block {
+  background-color: $blue;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 15px;
+  position: fixed;
+}
+
+#sidebar {
+  padding: 5em 2em;
+  width: 20%;
+  height: 100%;
 }
 
 #body-content {

@@ -32,21 +32,18 @@
       </li>
     </ul>
   </header>
+  <div id="color-block"></div>
   <div ng-app="bleonard">
-    <!-- <div ng-controller="sidebarController">
-      {{ testVar }}
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Resume</li>
-        <li>Contact</li>
-      </ul>
-    </div> -->
-    <div id="body-content" ng-controller="bodyController">
+    <div id="sidebar" ng-controller="sidebarController">
       <h3>About</h3>
       <h3>Experience</h3>
       <h3>Education</h3>
       <h3>Skills</h3>
+      <h3>Contact</h3>
+    </div>
+    <div id="body-content" ng-controller="bodyController">
+      <h2>Hi, I'm Brendan.</h2>
+      
     </div>
   </div>
 </body>

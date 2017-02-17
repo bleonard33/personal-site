@@ -9131,14 +9131,39 @@ header #nav-right li {
   float: left;
   padding: 0 .25em;
 }
+/* line 39, ../sass/project.scss */
+header #nav-right li a {
+  color: #8491A3;
+}
+/* line 41, ../sass/project.scss */
+header #nav-right li a:hover {
+  color: #373F51;
+}
 
-/* line 43, ../sass/project.scss */
+/* line 49, ../sass/project.scss */
+#color-block {
+  background-color: #6CD4FF;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 15px;
+  position: fixed;
+}
+
+/* line 58, ../sass/project.scss */
+#sidebar {
+  padding: 5em 2em;
+  width: 20%;
+  height: 100%;
+}
+
+/* line 64, ../sass/project.scss */
 #body-content {
   width: 80%;
   margin: auto;
   margin-top: 8em;
 }
-/* line 47, ../sass/project.scss */
+/* line 68, ../sass/project.scss */
 #body-content div {
   text-align: center;
   margin-top: 300px;
