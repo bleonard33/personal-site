@@ -1,11 +1,13 @@
 //  Colors
 $grey: #8491A3;
 $blue: #6CD4FF;
-$green: #87D68D;
-$salsa: #F03a47;
-$berry: #8A4F7D;
-$seafoam: #05A8AA;
 $charcoal: #373F51;
+
+$green: #87D68D; // About
+$berry: #8A4F7D; // Experience
+$carolina: #7BAFD4; // Education
+$salsa: #F03a47; // Skills
+$seafoam: #05A8AA; // Contact
 
 // Fonts
 $slab: 'Slabo 13px', serif;
@@ -69,6 +71,41 @@ body {
   background-color: white;
   .navbar-brand {
     font-family: "Slabo 13px", serif;
+  }
+  #about-nav:hover {
+    background-color: $green;
+    a {
+      color: white;
+    }
+  }
+  #experience-nav:hover {
+    background-color: $berry;
+    a {
+      color: white;
+    }
+  }
+  #education-nav:hover {
+    background-color: $carolina;
+    a {
+      color: white;
+    }
+  }
+  #skills-nav:hover {
+    background-color: $salsa;
+    a {
+      color: white;
+    }
+  }
+  #contact-nav:hover {
+    background-color: $seafoam;
+    a {
+      color: white;
+    }
+  }
+  .navbar-right {
+    .fa {
+      font-size: 1em;
+    }
   }
 }
 
