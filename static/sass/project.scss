@@ -69,6 +69,7 @@ body {
 
 #nav {
   background-color: white;
+  text-align: center;
   .navbar-brand {
     font-family: "Slabo 13px", serif;
     font-weight: 700;
@@ -91,7 +92,6 @@ body {
     background-color: $seafoam;
   }
   .nav-link {
-    text-align: center;
     .link-icon {
       display: none;
       font-size: 1.2em;
@@ -108,7 +108,9 @@ body {
     }
   }
   .navbar-right {
-    margin-right: 1em;
+    @media only screen and (min-width : 768px) {
+      margin-right: 1em;
+    }
     .fa {
       font-size: 1.2em;
     }

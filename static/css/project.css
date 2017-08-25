@@ -16,37 +16,34 @@ body {
 /* line 70, ../sass/project.scss */
 #nav {
   background-color: white;
+  text-align: center;
 }
-/* line 72, ../sass/project.scss */
+/* line 73, ../sass/project.scss */
 #nav .navbar-brand {
   font-family: "Slabo 13px", serif;
   font-weight: 700;
   font-size: 1.5em;
   color: #373F51;
 }
-/* line 78, ../sass/project.scss */
+/* line 79, ../sass/project.scss */
 #nav #about-nav:hover {
   background-color: #87D68D;
 }
-/* line 81, ../sass/project.scss */
+/* line 82, ../sass/project.scss */
 #nav #experience-nav:hover {
   background-color: #8A4F7D;
 }
-/* line 84, ../sass/project.scss */
+/* line 85, ../sass/project.scss */
 #nav #education-nav:hover {
   background-color: #7BAFD4;
 }
-/* line 87, ../sass/project.scss */
+/* line 88, ../sass/project.scss */
 #nav #skills-nav:hover {
   background-color: #F03a47;
 }
-/* line 90, ../sass/project.scss */
+/* line 91, ../sass/project.scss */
 #nav #contact-nav:hover {
   background-color: #05A8AA;
-}
-/* line 93, ../sass/project.scss */
-#nav .nav-link {
-  text-align: center;
 }
 /* line 95, ../sass/project.scss */
 #nav .nav-link .link-icon {
@@ -63,34 +60,36 @@ body {
 #nav .nav-link:hover a .link-text {
   visibility: hidden;
 }
-/* line 110, ../sass/project.scss */
-#nav .navbar-right {
-  margin-right: 1em;
+@media only screen and (min-width: 768px) {
+  /* line 110, ../sass/project.scss */
+  #nav .navbar-right {
+    margin-right: 1em;
+  }
 }
-/* line 112, ../sass/project.scss */
+/* line 114, ../sass/project.scss */
 #nav .navbar-right .fa {
   font-size: 1.2em;
 }
 
-/* line 119, ../sass/project.scss */
+/* line 121, ../sass/project.scss */
 #body-content div {
   font-size: 1.5em;
   font-family: "Source Sans Pro", sans-serif;
 }
-/* line 122, ../sass/project.scss */
+/* line 124, ../sass/project.scss */
 #body-content div h1 {
   text-align: center;
   font-family: "Slabo 13px", serif;
 }
-/* line 126, ../sass/project.scss */
+/* line 128, ../sass/project.scss */
 #body-content div p.body {
   font-size: .6em;
 }
-/* line 129, ../sass/project.scss */
+/* line 131, ../sass/project.scss */
 #body-content div#about {
   border-bottom: 4px solid #87D68D;
 }
-/* line 132, ../sass/project.scss */
+/* line 134, ../sass/project.scss */
 #body-content div #headshot {
   max-height: 6em;
   border: 8px solid #87D68D;
