@@ -1,6 +1,6 @@
 /*!
- * Bootstrap v3.3.6 (http://getbootstrap.com)
- * Copyright 2011-2015 Twitter, Inc.
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
@@ -1106,7 +1106,6 @@ a:focus {
   text-decoration: underline;
 }
 a:focus {
-  outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
@@ -2537,7 +2536,6 @@ select[size] {
 input[type="file"]:focus,
 input[type="radio"]:focus,
 input[type="checkbox"]:focus {
-  outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
@@ -3029,7 +3027,6 @@ select[multiple].input-lg {
 .btn.focus,
 .btn:active.focus,
 .btn.active.focus {
-  outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
@@ -6760,15 +6757,15 @@ button.close {
 /*# sourceMappingURL=bootstrap.css.map */
 
 /*!
- *  Font Awesome 4.6.3 by @davegandy - http://fontawesome.io - @fontawesome
+ *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
 /* FONT PATH
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url('../fonts/fontawesome-webfont.eot?v=4.6.3');
-  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.6.3') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.6.3') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.6.3') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.6.3') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular') format('svg');
+  src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -8593,6 +8590,7 @@ button.close {
   content: "\f23e";
 }
 .fa-battery-4:before,
+.fa-battery:before,
 .fa-battery-full:before {
   content: "\f240";
 }
@@ -8939,6 +8937,143 @@ button.close {
 .fa-font-awesome:before {
   content: "\f2b4";
 }
+.fa-handshake-o:before {
+  content: "\f2b5";
+}
+.fa-envelope-open:before {
+  content: "\f2b6";
+}
+.fa-envelope-open-o:before {
+  content: "\f2b7";
+}
+.fa-linode:before {
+  content: "\f2b8";
+}
+.fa-address-book:before {
+  content: "\f2b9";
+}
+.fa-address-book-o:before {
+  content: "\f2ba";
+}
+.fa-vcard:before,
+.fa-address-card:before {
+  content: "\f2bb";
+}
+.fa-vcard-o:before,
+.fa-address-card-o:before {
+  content: "\f2bc";
+}
+.fa-user-circle:before {
+  content: "\f2bd";
+}
+.fa-user-circle-o:before {
+  content: "\f2be";
+}
+.fa-user-o:before {
+  content: "\f2c0";
+}
+.fa-id-badge:before {
+  content: "\f2c1";
+}
+.fa-drivers-license:before,
+.fa-id-card:before {
+  content: "\f2c2";
+}
+.fa-drivers-license-o:before,
+.fa-id-card-o:before {
+  content: "\f2c3";
+}
+.fa-quora:before {
+  content: "\f2c4";
+}
+.fa-free-code-camp:before {
+  content: "\f2c5";
+}
+.fa-telegram:before {
+  content: "\f2c6";
+}
+.fa-thermometer-4:before,
+.fa-thermometer:before,
+.fa-thermometer-full:before {
+  content: "\f2c7";
+}
+.fa-thermometer-3:before,
+.fa-thermometer-three-quarters:before {
+  content: "\f2c8";
+}
+.fa-thermometer-2:before,
+.fa-thermometer-half:before {
+  content: "\f2c9";
+}
+.fa-thermometer-1:before,
+.fa-thermometer-quarter:before {
+  content: "\f2ca";
+}
+.fa-thermometer-0:before,
+.fa-thermometer-empty:before {
+  content: "\f2cb";
+}
+.fa-shower:before {
+  content: "\f2cc";
+}
+.fa-bathtub:before,
+.fa-s15:before,
+.fa-bath:before {
+  content: "\f2cd";
+}
+.fa-podcast:before {
+  content: "\f2ce";
+}
+.fa-window-maximize:before {
+  content: "\f2d0";
+}
+.fa-window-minimize:before {
+  content: "\f2d1";
+}
+.fa-window-restore:before {
+  content: "\f2d2";
+}
+.fa-times-rectangle:before,
+.fa-window-close:before {
+  content: "\f2d3";
+}
+.fa-times-rectangle-o:before,
+.fa-window-close-o:before {
+  content: "\f2d4";
+}
+.fa-bandcamp:before {
+  content: "\f2d5";
+}
+.fa-grav:before {
+  content: "\f2d6";
+}
+.fa-etsy:before {
+  content: "\f2d7";
+}
+.fa-imdb:before {
+  content: "\f2d8";
+}
+.fa-ravelry:before {
+  content: "\f2d9";
+}
+.fa-eercast:before {
+  content: "\f2da";
+}
+.fa-microchip:before {
+  content: "\f2db";
+}
+.fa-snowflake-o:before {
+  content: "\f2dc";
+}
+.fa-superpowers:before {
+  content: "\f2dd";
+}
+.fa-wpexplorer:before {
+  content: "\f2de";
+}
+.fa-meetup:before {
+  content: "\f2e0";
+}
 .sr-only {
   position: absolute;
   width: 1px;
@@ -8959,45 +9094,162 @@ button.close {
   clip: auto;
 }
 
-/* line 14, ../sass/project.scss */
-header {
-  padding: .5em 2em;
-  position: fixed;
-  width: 100%;
-}
-/* line 18, ../sass/project.scss */
-header #title, header #nav-right {
-  position: fixed;
-  top: 1em;
-  font-size: 1.8em;
-}
-/* line 23, ../sass/project.scss */
-header #title {
-  font-family: "Slabo 13px", serif;
-}
-/* line 26, ../sass/project.scss */
-header #nav-right {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  right: 0;
-  padding: 0 .25em;
-}
-/* line 32, ../sass/project.scss */
-header #nav-right li {
-  float: left;
-  padding: 0 .25em;
+/* line 17, ../sass/project.scss */
+.mono {
+  font-family: "Inconsolata", monospace;
+  font-size: 1em;
 }
 
-/* line 39, ../sass/project.scss */
-#body-content {
-  width: 80%;
-  margin: auto;
+/* line 22, ../sass/project.scss */
+body {
+  font-family: "Source Sans Pro", sans-serif;
 }
-/* line 42, ../sass/project.scss */
-#body-content div {
+
+/* line 26, ../sass/project.scss */
+#color-block {
+  background-color: #6CD4FF;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 15px;
+  position: fixed;
+}
+
+/* line 35, ../sass/project.scss */
+#nav {
+  background-color: white;
   text-align: center;
-  margin-top: 300px;
+}
+/* line 38, ../sass/project.scss */
+#nav .navbar-brand {
+  font-family: "Slabo 13px", serif;
+  font-weight: 700;
+  font-size: 1.5em;
+  color: #373F51;
+}
+/* line 44, ../sass/project.scss */
+#nav #about-nav:hover {
+  background-color: #87D68D;
+}
+/* line 47, ../sass/project.scss */
+#nav #experience-nav:hover {
+  background-color: #8A4F7D;
+}
+/* line 50, ../sass/project.scss */
+#nav #education-nav:hover {
+  background-color: #7BAFD4;
+}
+/* line 53, ../sass/project.scss */
+#nav #skills-nav:hover {
+  background-color: #F03a47;
+}
+/* line 56, ../sass/project.scss */
+#nav #contact-nav:hover {
+  background-color: #FFD275;
+}
+/* line 60, ../sass/project.scss */
+#nav .nav-link .link-icon {
+  display: none;
+  font-size: 1.2em;
+  margin-top: -20px;
+}
+/* line 66, ../sass/project.scss */
+#nav .nav-link:hover a .link-icon {
+  display: block;
+  color: white;
+}
+/* line 70, ../sass/project.scss */
+#nav .nav-link:hover a .link-text {
+  visibility: hidden;
+}
+@media only screen and (max-width: 778px) {
+  /* line 75, ../sass/project.scss */
+  #nav .navbar-right {
+    display: none;
+  }
+}
+@media only screen and (min-width: 778px) {
+  /* line 75, ../sass/project.scss */
+  #nav .navbar-right {
+    margin-right: 1em;
+  }
+}
+/* line 82, ../sass/project.scss */
+#nav .navbar-right .fa {
+  font-size: 1.2em;
+}
+
+/* line 90, ../sass/project.scss */
+#body #body-content div.row {
   font-size: 1.5em;
   font-family: "Source Sans Pro", sans-serif;
+  padding: 2em;
+}
+/* line 94, ../sass/project.scss */
+#body #body-content div.row h1 {
+  text-align: center;
+  font-family: "Slabo 13px", serif;
+}
+/* line 98, ../sass/project.scss */
+#body #body-content div.row p.body {
+  font-size: 12pt;
+}
+/* line 101, ../sass/project.scss */
+#body #body-content div.row#about {
+  padding-top: 4em;
+  border-left: 12pt solid #87D68D;
+}
+/* line 105, ../sass/project.scss */
+#body #body-content div.row#experience {
+  border-left: 12pt solid #8A4F7D;
+}
+/* line 108, ../sass/project.scss */
+#body #body-content div.row#education {
+  border-left: 12pt solid #7BAFD4;
+}
+/* line 110, ../sass/project.scss */
+#body #body-content div.row#education .award {
+  font-size: 12pt;
+}
+/* line 112, ../sass/project.scss */
+#body #body-content div.row#education .award .fa {
+  color: #7BAFD4;
+}
+/* line 117, ../sass/project.scss */
+#body #body-content div.row#skills {
+  border-left: 12pt solid #F03a47;
+}
+/* line 119, ../sass/project.scss */
+#body #body-content div.row#skills ul {
+  list-style-type: none;
+  padding: 0;
+}
+/* line 122, ../sass/project.scss */
+#body #body-content div.row#skills ul.mono li {
+  font-size: 12pt;
+}
+/* line 127, ../sass/project.scss */
+#body #body-content div.row#contact {
+  border-left: 12pt solid #FFD275;
+}
+/* line 129, ../sass/project.scss */
+#body #body-content div.row#contact .fa {
+  color: #373F51;
+}
+/* line 133, ../sass/project.scss */
+#body #body-content div.row #headshot {
+  max-height: 6em;
+  border: 6px solid #87D68D;
+}
+
+/* line 141, ../sass/project.scss */
+footer {
+  bottom: 0;
+  width: 100%;
+  border-left: 12pt solid #FFD275;
+}
+/* line 145, ../sass/project.scss */
+footer div {
+  padding: 2em;
+  text-align: center;
 }
