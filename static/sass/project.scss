@@ -1,5 +1,5 @@
 //  Colors
-$grey: #8491A3;
+$grey: #e7e7e7;
 $blue: #6CD4FF;
 $charcoal: #373F51;
 
@@ -71,40 +71,46 @@ body {
   background-color: white;
   .navbar-brand {
     font-family: "Slabo 13px", serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: $charcoal;
   }
   #about-nav:hover {
     background-color: $green;
-    a {
-      color: white;
-    }
   }
   #experience-nav:hover {
     background-color: $berry;
-    a {
-      color: white;
-    }
   }
   #education-nav:hover {
     background-color: $carolina;
-    a {
-      color: white;
-    }
   }
   #skills-nav:hover {
     background-color: $salsa;
-    a {
-      color: white;
-    }
   }
   #contact-nav:hover {
     background-color: $seafoam;
-    a {
-      color: white;
+  }
+  .nav-link {
+    text-align: center;
+    .link-icon {
+      display: none;
+      font-size: 1.2em;
+      margin-top: -20px;
+    }
+    &:hover a {
+      .link-icon {
+        display: block;
+        color: white;
+      }
+      .link-text {
+        visibility: hidden;
+      }
     }
   }
   .navbar-right {
+    margin-right: 1em;
     .fa {
-      font-size: 1em;
+      font-size: 1.2em;
     }
   }
 }
