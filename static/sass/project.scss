@@ -107,6 +107,12 @@ body {
       }
       &#education {
         border-left: 12pt solid $carolina;
+        .award {
+          font-size: 12pt;
+          .fa {
+            color:$carolina;
+          }
+        }
       }
       &#skills {
         border-left: 12pt solid $salsa;
@@ -120,6 +126,9 @@ body {
       }
       &#contact {
         border-left: 12pt solid $topaz;
+        .fa {
+          color: $charcoal;
+        }
       }
       #headshot {
         max-height: 6em;

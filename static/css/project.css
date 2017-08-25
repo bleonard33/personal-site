@@ -111,36 +111,48 @@ body {
 #body #body-content div.row#education {
   border-left: 12pt solid #7BAFD4;
 }
-/* line 111, ../sass/project.scss */
+/* line 110, ../sass/project.scss */
+#body #body-content div.row#education .award {
+  font-size: 12pt;
+}
+/* line 112, ../sass/project.scss */
+#body #body-content div.row#education .award .fa {
+  color: #7BAFD4;
+}
+/* line 117, ../sass/project.scss */
 #body #body-content div.row#skills {
   border-left: 12pt solid #F03a47;
 }
-/* line 113, ../sass/project.scss */
+/* line 119, ../sass/project.scss */
 #body #body-content div.row#skills ul {
   list-style-type: none;
   padding: 0;
 }
-/* line 116, ../sass/project.scss */
+/* line 122, ../sass/project.scss */
 #body #body-content div.row#skills ul.mono li {
   font-size: 12pt;
 }
-/* line 121, ../sass/project.scss */
+/* line 127, ../sass/project.scss */
 #body #body-content div.row#contact {
   border-left: 12pt solid #FFD275;
 }
-/* line 124, ../sass/project.scss */
+/* line 129, ../sass/project.scss */
+#body #body-content div.row#contact .fa {
+  color: #373F51;
+}
+/* line 133, ../sass/project.scss */
 #body #body-content div.row #headshot {
   max-height: 6em;
   border: 6px solid #87D68D;
 }
 
-/* line 132, ../sass/project.scss */
+/* line 141, ../sass/project.scss */
 footer {
   bottom: 0;
   width: 100%;
   border-left: 12pt solid #FFD275;
 }
-/* line 136, ../sass/project.scss */
+/* line 145, ../sass/project.scss */
 footer div {
   padding: 2em;
   text-align: center;
