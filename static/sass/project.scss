@@ -15,36 +15,40 @@ body {
   font-family: $sans;
 }
 
-header {
-  padding: .5em 2em;
-  position: fixed;
-  width: 100%;
-  #title, #nav-right {
-    position: fixed;
-    top: 1em;
-    font-size: 1.8em;
-  }
-  #title {
-    font-family: $slab;
-  }
-  #nav-right {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    right: 0;
-    padding: 0 .25em;
-    li {
-      float: left;
-      padding: 0 .25em;
-      a {
-        color: $grey;
-        &:hover {
-          color: $charcoal;
-        }
-      }
-    }
-  }
-}
+// header {
+//   padding: .5em 2em;
+//   position: fixed;
+//   width: 100%;
+//   #title, #nav-right {
+//     position: fixed;
+//     top: 1em;
+//     font-size: 1.8em;
+//   }
+//   #title {
+//     font-family: "Slabo 13px", serif;
+//     text-align: center;
+//     left: 50%;
+//     width: 250px;
+//     margin-left: -125px;
+//   }
+//   #nav-right {
+//     list-style-type: none;
+//     margin: 0;
+//     padding: 0;
+//     right: 0;
+//     padding: 0 .25em;
+//     li {
+//       float: left;
+//       padding: 0 .25em;
+//       a {
+//         color: $grey;
+//         &:hover {
+//           color: $charcoal;
+//         }
+//       }
+//     }
+//   }
+// }
 
 #color-block {
   background-color: $blue;
@@ -55,20 +59,36 @@ header {
   position: fixed;
 }
 
-#sidebar {
-  padding: 5em 2em;
-  width: 20%;
-  height: 100%;
+// #sidebar {
+//   padding: 5em 2em;
+//   width: 20%;
+//   height: 100%;
+// }
+
+#nav {
+  background-color: white;
+  .navbar-brand {
+    font-family: "Slabo 13px", serif;
+  }
 }
 
 #body-content {
-  width: 80%;
-  margin: auto;
-  margin-top: 8em;
   div {
-    text-align: center;
-    margin-top: 300px;
     font-size: 1.5em;
     font-family: $sans;
+    h1 {
+      text-align: center;
+      font-family: $slab;
+    }
+    p.body {
+      font-size: .6em;
+    }
+    &#about {
+      border-bottom: 4px solid $green;
+    }
+    #headshot {
+      max-height: 6em;
+      border: 8px solid $green;
+    }
   }
 }
