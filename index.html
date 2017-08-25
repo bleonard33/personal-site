@@ -2,49 +2,198 @@
 <html>
 <head>
   <title>Brendan Leonard</title>
-  <link href="https://fonts.googleapis.com/css?family=Slabo+13px|Source+Sans+Pro" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Slabo+13px|Inconsolata|Source+Sans+Pro" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="static/dist/built.css">
   <script type="text/javascript" src="static/dist/built.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-  <header>
-    <div id="title">Brendan Leonard</div>
-    <ul id="nav-right">
-      <li>
-        <a href="https://github.com/bleonard33" target="_blank">
-          <i class="fa fa-github"></i>
-        </a>
-      </li>
-      <li>
-        <a href="https://angel.co/brendanl" target="_blank">
-          <i class="fa fa-angellist"></i>
-        </a>
-      </li>
-      <li>
-        <a href="https://www.linkedin.com/in/brendan-leonard-72a50471" target="_blank">
-          <i class="fa fa-linkedin"></i>
-        </a>
-      </li>
-      <li>
-        <a href="mailto:hello@bleonard.io" target="_blank">
-          <i class="fa fa-envelope"></i>
-        </a>
-      </li>
-    </ul>
-  </header>
-  <div ng-app="bleonard">
-    <!-- <div ng-controller="sidebarController">
-      {{ testVar }}
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Resume</li>
-        <li>Contact</li>
-      </ul>
-    </div> -->
-    <div id="body-content" ng-controller="bodyController">
-      <div>This site is a work in progress.<br />Feel free to check out the links above<br />or email me at <a href="mailto:hello@bleonard.io" target="_blank">hello@bleonard.io</a> to get in touch.</div>
+  <div class="container">
+    <nav id="nav" class="navbar navbar-default navbar-fixed-top">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Brendan Leonard</a>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li class="nav-link" id="about-nav">
+            <a href="#about">
+              <div class="link-text">About</div>
+              <div class="link-icon"><i class="fa fa-user-circle-o"></i></div>
+            </a>
+          </li>
+          <li class="nav-link" id="experience-nav">
+            <a href="#experience">
+              <div class="link-text">Experience</div>
+              <div class="link-icon"><i class="fa fa-code-fork"></i></div>
+            </a>
+          </li>
+          <li class="nav-link" id="education-nav">
+            <a href="#education">
+              <div class="link-text">Education</div>
+              <div class="link-icon"><i class="fa fa-graduation-cap"></i></div>
+            </a>
+          </li>
+          <li class="nav-link" id="skills-nav">
+            <a href="#skills">
+              <div class="link-text">Skills</div>
+              <div class="link-icon"><i class="fa fa-database"></i></div>
+            </a>
+          </li>
+          <li class="nav-link" id="contact-nav">
+            <a href="#contact">
+              <div class="link-text">Contact</div>
+              <div class="link-icon"><i class="fa fa-vcard"></i></div>
+            </a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="https://github.com/bleonard33" target="_blank">
+              <i class="fa fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://angel.co/brendanl" target="_blank">
+              <i class="fa fa-angellist"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/brendan-leonard-72a50471" target="_blank">
+              <i class="fa fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:hello@bleonard.io" target="_blank">
+              <i class="fa fa-envelope"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div id="body" class="container-fluid">
+    <div id="body-content" >
+      <div id="about" class="row">
+        <h1>About</h1>
+        <div class="col-xs-12 col-sm-4 col-md-3">
+          <img src="static/img/headshot.jpeg" id="headshot" class="img-circle img-responsive center-block" alt="headshot">
+        </div>
+        <div class="col-xs-12 col-sm-8 col-md-9">
+          <h2>Hi, I'm Brendan.</h2>
+        </div>
+      </div>
+      <div id="experience" class="row">
+        <h1>Experience</h1>
+        <div class="col-xs-12">
+          <h3>Numerated Growth Technologies</h3>
+          <h4>Data Science &bull; Boston, MA &bull; April 2017 &mdash; Present</h4>
+        </div>
+        <div class="col-xs-12">
+          <h3>Eastern Bank</h3>
+          <h4>Boston, MA</h4>
+          <h4>Data Science Analyst</h4>
+          <h4>June 2014 &mdash; April 2017</h4>
+        </div>
+        <div class="col-xs-12">
+          <h3>Carolina For The Kids Foundation</h3>
+          <h4>Chapel Hill, NC</h4>
+          <h4>Director of Publicity; Director of Fundraising Projects</h4>
+          <h4>March 2013 &mdash; March 2015</h4>
+        </div>
+      </div>
+      <div id="education" class="row">
+        <h1>Education</h1>
+        <h3>The University of North Carolina at Chapel Hill</h3>
+        <h4>Bachelor of Arts, Economics</h4>
+        <div class="col-xs-12 col-sm-4 award"><i class="fa fa-trophy"></i>  Honors Carolina</div>
+        <div class="col-xs-12 col-sm-4 award"><i class="fa fa-trophy"></i>  Buckley Public Service Scholar</div>
+        <div class="col-xs-12 col-sm-4 award"> <i class="fa fa-trophy"></i>  Hometown Hero Award</div>
+      </div>
+      <div id="skills" class="row">
+        <h1>Skills</h1>
+        <div class="col-xs-12 col-sm-4">
+          <h3>Languages</h3>
+          <ul class="mono">
+            <li>Python</li>
+            <li>PostgreSQL</li>
+            <li>HTML/CSS</li>
+            <li>JavaScript</li>
+            <li>MATLAB</li>
+            <li>Java</li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <h3>Frameworks &amp; Libraries</h3>
+          <ul class="mono">
+            <li>Bootstrap</li>
+            <li>Sass</li>
+            <li>Flask</li>
+            <li>Scikit-Learn</li>
+            <li>Django</li>
+            <li>Numpy</li>
+            <li>Pandas</li>
+            <li>AngularJS</li>
+            <li>D3</li>
+            <li>Selenium</li>
+            <li>NodeJS</li>
+            <li>Celery</li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <h3>Technologies &amp; Software</h3>
+          <ul class="mono">
+            <li>AWS EC2</li>
+            <li>Git</li>
+            <li>Adobe Illustrator</li>
+            <li>AWS RDS</li>
+            <li>Linux</li>
+            <li>Stata</li>
+          </ul>
+        </div>
+      </div>
+      <div id="contact" class="row">
+        <h1>Contact</h1>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <a href="https://www.linkedin.com/in/brendan-leonard-72a50471" target="_blank">
+            <i class="fa fa-linkedin-square"></i> Brendan Leonard
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <a href="https://github.com/bleonard33" target="_blank">
+            <i class="fa fa-github"></i> /bleonard33
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <a href="https://angel.co/brendanl" target="_blank">
+            <i class="fa fa-angellist"></i> /brendanl
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <a href="https://www.instagram.com/bml330/" target="_blank">
+            <i class="fa fa-instagram"></i> @bml330
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <a href="https://www.facebook.com/brendan.leonard" target="_blank">
+            <i class="fa fa-facebook-square"></i> /brendan.leonard
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <a href="mailto:hello@bleonard.io" target="_blank">
+            <i class="fa fa-envelope-o"></i> hello@bleonard.io
+          </a>
+        </div>
+      </div>
     </div>
   </div>
 </body>
+<footer>
+  <div>&copy;<script>document.write(new Date().getFullYear())</script> Brendan Leonard</div>
+</footer>
 </html>
