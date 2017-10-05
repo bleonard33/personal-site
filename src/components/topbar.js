@@ -3,7 +3,7 @@ import Radium from 'radium';
 
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import { TopSocial } from './topSocial'
-import TopSection from './topSection'
+import { TopSection } from './topSection'
 
 export class Topbar extends Component {
   render() {
