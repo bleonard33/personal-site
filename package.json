@@ -1,21 +1,21 @@
 {
   "name": "bleonard.io",
-  "version": "0.0.1",
+  "homepage": "bleonard.io",
+  "version": "0.0.2",
   "devDependencies": {
-    "compass": "^0.1.1",
-    "grunt": "~0.4.5",
-    "grunt-contrib-compass": "^1.1.1",
-    "grunt-contrib-concat": "latest",
-    "grunt-contrib-jshint": "^1.0.0",
-    "grunt-contrib-less": "latest",
-    "grunt-contrib-watch": "latest",
-    "jshint-stylish": "^2.2.0"
-  },
-  "dependencies": {
     "bootstrap": "3.3.7",
     "font-awesome": "latest",
-    "jquery": "2.1.4",
+    "gh-pages": "^1.0.0",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "react-scripts": "1.0.14"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   }
 }
