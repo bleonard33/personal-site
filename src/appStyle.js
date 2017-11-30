@@ -12,7 +12,7 @@ export const AppStyle = {
     topaz: '#FFD275', // Contact
 
     // Fonts
-    slab: "'Slabo 13px', serif",
-    sans: "'Source Sans Pro', sans-serif",
+    slab: "'Roboto Slab', 'Roboto', sans-serif",
+    sans: "'Roboto', sans-serif",
     mono: "'Inconsolata', monospace",
 }
