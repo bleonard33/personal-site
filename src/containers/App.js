@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { appStyle } from '../appStyle';
 import { sections, contact, jobs, skills } from '../data'
 
-import { NavContainer } from '../containers/navContainer'
+import { Navigation } from '../components/navigation'
 import { Section } from '../components/section';
 import { Job } from '../components/job';
 import { Education } from '../components/education';
@@ -12,7 +12,7 @@ class App extends Component {
   render() {
     return (
       <div style={appStyle.main}>
-        <NavContainer
+        <Navigation
           sections={sections}
           contact={contact}/>
         <div 
