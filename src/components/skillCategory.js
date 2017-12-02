@@ -3,7 +3,7 @@ import { appStyle } from '../appStyle';
 import { SkillContainer } from '../containers/skillContainer'
 
 export const SkillCategory = (props) => (
-  <div className="col-xs-12 col-sm-4">
+  <div className="col-xs-12 col-sm-6 col-md-3">
     <h3 style={appStyle.subheader}>
       {props.category.type}
     </h3>

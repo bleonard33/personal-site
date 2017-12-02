@@ -103,118 +103,110 @@ export const jobs = [
 
 export const skills = [
   {
-    type: 'Languages',
+    type: 'Back End',
     skills: [
       {
         name: 'Python',
-        rating: 2.5
+        rating: 4
       },
       {
         name: 'PostgreSQL',
-        rating: 2.5
-      },
-      {
-        name: 'HTML/CSS',
-        rating: 2.5
-      },
-      {
-        name: 'JavaScript',
-        rating: 2.5
-      },
-      {
-        name: 'MATLAB',
-        rating: 2.5
+        rating: 3.5
       },
       {
         name: 'Java',
-        rating: 2.5
-      },
-    ]
-  },
-  {
-    type: 'Frameworks & Libraries',
-    skills: [
-      {
-        name: 'Bootstrap',
-        rating: 2.5
-      },
-      {
-        name: 'Sass',
-        rating: 2.5
+        rating: 2
       },
       {
         name: 'Flask',
-        rating: 2.5
       },
       {
         name: 'Scikit-Learn',
-        rating: 2.5
       },
       {
         name: 'Django',
-        rating: 2.5
       },
       {
         name: 'Numpy',
-        rating: 2.5
       },
       {
         name: 'Pandas',
-        rating: 2.5
-      },
-      {
-        name: 'React',
-        rating: 2.5
-      },
-      {
-        name: 'AngularJS',
-        rating: 2.5
-      },
-      {
-        name: 'D3',
-        rating: 2.5
       },
       {
         name: 'Selenium',
-        rating: 2.5
-      },
-      {
-        name: 'NodeJS',
-        rating: 2.5
       },
       {
         name: 'Celery',
-        rating: 2.5
       }
     ]
   },
   {
-    type: 'Technologies & Software',
+    type: 'Front End',
+    skills: [
+      {
+        name: 'React',
+      },
+      {
+        name: 'HTML/CSS',
+        rating: 3.5
+      },
+      {
+        name: 'JavaScript',
+        rating: 3
+      },
+      {
+        name: 'JSX',
+        rating: 2
+      },      
+      {
+        name: 'Bootstrap',
+      },
+      {
+        name: 'Sass',
+      },
+      {
+        name: 'AngularJS',
+      },
+      {
+        name: 'D3',
+      },
+      {
+        name: 'NodeJS',
+      },
+    ]
+  },
+  {
+    type: 'Tools & Environments',
     skills: [
       {
         name: 'AWS EC2',
-        rating: 2.5
       },
       {
-        name: 'Git',
-        rating: 2.5
-      },
-      {
-        name: 'Adobe Illustrator',
-        rating: 2.5
+        name: 'Git/Github',
       },
       {
         name: 'AWS RDS',
-        rating: 2.5
+      },
+      {
+        name: 'macOS',
       },
       {
         name: 'Linux',
-        rating: 2.5
+      }
+    ]
+  },
+  {
+    type: 'Software',
+    skills: [
+      {
+        name: 'Adobe Illustrator',
+      },
+      {
+        name: 'Adobe PhotoShop',
       },
       {
         name: 'Stata',
-        rating: 2.5
-      }
+      },
     ]
   }
 ]

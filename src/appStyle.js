@@ -70,11 +70,7 @@ appStyle.subheader = {
 }
 
 appStyle.skills = {
-  fontFamily: appStyle.fonts.mono,
-  stars: {
-    color: appStyle.colors.skills,
-    float: 'right'
-  }
+  fontFamily: appStyle.fonts.mono
 }
 
 appStyle.contact = {

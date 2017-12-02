@@ -6,8 +6,5 @@ export const Skill = (props) => (
     <span style={appStyle.skills}>
       {props.name}
     </span>
-    <span style={appStyle.skills.stars}>
-      {props.rating}
-    </span>
   </div>
 )
