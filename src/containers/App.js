@@ -18,7 +18,9 @@ class App extends Component {
             </Section>
 
             <Section title='Experience'>
-              {jobs.map(job => <Job job={job} />)}
+              {jobs.map((job, i) =>
+                <Job key={i} job={job} />
+              )}
             </Section>
 
             <Section title='Education'>

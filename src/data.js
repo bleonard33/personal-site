@@ -1,25 +1,28 @@
-import React, { Component } from 'react';
-
 export const sections = [
   {
     title: 'About',
-    color: '#87D68D'
+    color: '#87D68D',
+    icon: 'fa-user-circle-o'
   },
   {
     title: 'Experience',
-    color: '#8A4F7D'
+    color: '#8A4F7D',
+    icon: 'fa-code-fork'
   },
   {
     title: 'Education',
-    color: '#7BAFD4'
+    color: '#7BAFD4',
+    icon: 'fa-graduation-cap'
   },
   {
     title: 'Skills',
-    color: '#F03A47'
+    color: '#F03A47',
+    icon: 'fa-database'
   },
   {
     title: 'Contact',
-    color: '#FFD275'
+    color: '#FFD275',
+    icon: 'fa-vcard'
   },
 ]
 

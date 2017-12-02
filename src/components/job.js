@@ -15,7 +15,7 @@ export const Job = (props) => {
       </h4>
       <ul>
       {props.job.description.map((desc, i) =>
-        <li>{desc}</li>
+        <li key={i}>{desc}</li>
       )}
       </ul>
     </div>
