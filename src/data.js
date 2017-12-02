@@ -61,6 +61,13 @@ export const contact = [
     link: 'https://www.instagram.com/bml330/',
     icon: 'fa-instagram',
     nav: false
+  },
+  {
+    name: 'Résumé',
+    handle: 'Résumé',
+    link: 'https://docs.google.com/document/d/156gk-htdRILnZSx3KKp05uAWdw99Gw7NGWROTTHXSVA/edit?usp=sharing',
+    icon: 'fa-file-text-o',
+    nav: false
   }
 ]
 
