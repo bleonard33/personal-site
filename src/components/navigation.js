@@ -5,7 +5,9 @@ import { NavSocial } from './navSocial'
 import { NavTabContainer } from '../containers/navTabContainer'
 
 export const Navigation = (props) => (
-  <Navbar style={appStyle.nav} className='navbar-fixed-top'>
+  <Navbar
+    style={appStyle.nav}
+    staticTop >
     <Navbar.Header>
       <Navbar.Brand>
         <div style={appStyle.nav.brand}>

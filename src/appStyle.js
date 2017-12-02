@@ -22,10 +22,6 @@ appStyle.main = {
   fontFamily: appStyle.fonts.sans
 }
 
-appStyle.body = {
-  marginTop: '51px'
-}
-
 appStyle.nav = {
   marginBottom: 0,
   borderTop: 0,

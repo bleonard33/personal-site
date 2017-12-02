@@ -4,6 +4,7 @@ import { sections, contact, jobs, skills } from '../data';
 
 import { Navigation } from '../components/navigation';
 import { Section } from '../components/section';
+import { About } from '../components/about'
 import { Job } from '../components/job';
 import { Education } from '../components/education';
 import { SkillCategory } from '../components/skillCategory';
@@ -18,11 +19,11 @@ class App extends Component {
           sections={sections}
           contact={contact}/>
         <div 
-          style={appStyle.body}
           className="container-fluid">
           <div className="body-content">
 
             <Section title='About'>
+              <About />
             </Section>
 
             <Section title='Experience'>
