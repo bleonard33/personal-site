@@ -22,12 +22,8 @@ export class NavTabContainer extends Component {
 
     this.setState({
       hover: newHover,
-      iconStyle: {
-        display: newHover ? 'block' : 'none',
-        color: 'white'
-      },
+      iconStyle: {display: newHover ? 'block' : 'none'},
       textStyle: {
-        visibility: newHover ? 'hidden' : null,
         height: newHover ? '0px' : null,
         overflow: newHover ? 'hidden' : null,
       },

@@ -29,14 +29,17 @@ appStyle.nav = {
   textAlign: 'center',
   brand: {
     fontFamily: appStyle.fonts.slab,
+    fontSize: '16pt',
     color: appStyle.colors.charcoal,
   },
   sectionIcon: {
     fontSize: '1.2em',
     textAlign: 'center',
+    color: 'white',
   },
-  textStyle: {
+  sectionTab: {
     textAlign: 'center',
+    fontSize: '12pt'
   }
 }
 
