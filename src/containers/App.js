@@ -6,6 +6,7 @@ import { NavContainer } from '../containers/navContainer'
 import { Section } from '../components/section';
 import { Job } from '../components/job';
 import { Education } from '../components/education';
+import { SkillCategory } from '../components/skillCategory'
 
 class App extends Component {
   render() {
@@ -21,7 +22,9 @@ class App extends Component {
 
             <Section title='Experience'>
               {jobs.map((job, i) =>
-                <Job key={i} job={job} />
+                <Job
+                  key={i}
+                  job={job} />
               )}
             </Section>
 
@@ -30,6 +33,11 @@ class App extends Component {
             </Section>
 
             <Section title='Skills'>
+              {skills.map((category, i) =>
+                <SkillCategory
+                  key={i}
+                  category={category} />
+              )}
             </Section>
 
             <Section title='Contact'>

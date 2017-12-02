@@ -64,3 +64,11 @@ appStyle.subheader = {
   fontSize: '16pt',
   fontFamily: appStyle.fonts.sans,
 }
+
+appStyle.skills = {
+  fontFamily: appStyle.fonts.mono,
+  stars: {
+    color: appStyle.colors.skills,
+    float: 'right'
+  }
+}
