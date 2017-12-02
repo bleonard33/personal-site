@@ -1,10 +1,10 @@
 import React from 'react';
 import { appStyle } from '../appStyle'
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
-import { TopSocial } from './topSocial'
-import { TopSection } from './topSection'
+import { NavSocial } from './navSocial'
+import { NavTab } from './navTab'
 
-export const Topbar = (props) => (
+export const Navigation = (props) => (
   <Navbar style={appStyle.nav}>
     <Navbar.Header>
       <Navbar.Brand>
@@ -15,12 +15,12 @@ export const Topbar = (props) => (
     <Navbar.Collapse>
       <Nav>
         {props.sections.map(section =>
-          <TopSection section={section} />
+          <NavTab section={section} />
         )}
       </Nav>
       <Nav pullRight>
         {props.contact.map(contact =>
-          <TopSocial contact={contact}/>
+          <NavSocial contact={contact}/>
         )}
       </Nav>
     </Navbar.Collapse>

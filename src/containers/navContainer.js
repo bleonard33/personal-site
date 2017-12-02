@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import { Topbar } from '../components/topbar'
+import { Navigation } from '../components/navigation'
 
-export class TopbarContainer extends Component {
+export class NavContainer extends Component {
   render() {
     return (
-      <Topbar
+      <Navigation
         sections={this.props.sections}
         contact={this.props.contact} />
     )

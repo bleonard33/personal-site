@@ -2,7 +2,7 @@ import React from 'react';
 import { NavItem } from 'react-bootstrap';
 
 
-export const TopSocial = (props) => {
+export const NavSocial = (props) => {
   return (
     <NavItem
       href={props.contact.link}

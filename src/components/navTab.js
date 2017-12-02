@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { NavItem } from 'react-bootstrap';
 
 
-export class TopSection extends Component {
+export class NavTab extends Component {
   render() {
 
     const style = {
