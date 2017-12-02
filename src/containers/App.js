@@ -21,6 +21,7 @@ class App extends Component {
           style={appStyle.body}
           className="container-fluid">
           <div className="body-content">
+
             <Section title='About'>
             </Section>
 
