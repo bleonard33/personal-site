@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
+import { appStyle } from '../appStyle';
 import { sections, contact, jobs, skills } from '../data'
+
 import { NavContainer } from '../containers/navContainer'
 import { Section } from '../components/section';
-import { Job } from '../components/job'
-import { appStyle } from '../appStyle'
+import { Job } from '../components/job';
+import { Education } from '../components/education';
 
 class App extends Component {
   render() {
@@ -24,6 +26,7 @@ class App extends Component {
             </Section>
 
             <Section title='Education'>
+              <Education />
             </Section>
 
             <Section title='Skills'>

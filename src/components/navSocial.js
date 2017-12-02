@@ -1,4 +1,5 @@
 import React from 'react';
+import { appStyle } from '../appStyle'
 import { NavItem } from 'react-bootstrap';
 
 
@@ -7,7 +8,9 @@ export const NavSocial = (props) => {
     <NavItem
       href={props.contact.link}
       target="_blank">
-        <i className={"fa " + props.contact.icon}></i>
+        <i
+          style={appStyle.nav.socialIcon}
+          className={'fa ' + props.contact.icon}></i>
     </NavItem>
   )
 }

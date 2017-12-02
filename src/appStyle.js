@@ -7,7 +7,7 @@ appStyle.fonts = {
 };
 
 appStyle.colors = {
-  grey: '#e7e7e7',
+  ltgrey: '#e7e7e7',
   blue: '#6CD4FF',
   charcoal: '#373F51',
 
@@ -40,18 +40,24 @@ appStyle.nav = {
   sectionTab: {
     textAlign: 'center',
     fontSize: '12pt'
+  },
+  socialIcon: {
+    fontSize: '1.2em',
+    textAlign: 'center',
   }
 }
 
 appStyle.section = {
   borderLeftWidth: '16px',
   borderLeftStyle: 'solid',
-  paddingLeft: '20px'
+  paddingLeft: '20px',
+  paddingBottom: '20px'
 }
 
 appStyle.header = {
   fontSize: '20pt',
-  fontFamily: appStyle.fonts.slab, 
+  fontFamily: appStyle.fonts.slab,
+  textAlign: 'center'
 }
 
 appStyle.subheader = {
