@@ -23,11 +23,15 @@ export const Navigation = (props) => (
         )}
       </Nav>
       <Nav pullRight>
-        {props.contact.map((contact, i) =>
-          <NavSocial
-            key={i}
-            contact={contact}/>
-        )}
+        {props.contact.map((contact, i) => {
+          if (contact.nav) {
+            return (
+              <NavSocial
+                key={i}
+                contact={contact}/>
+            )
+          }
+        })}
       </Nav>
     </Navbar.Collapse>
   </Navbar>

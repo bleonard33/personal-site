@@ -29,23 +29,31 @@ export const sections = [
 export const contact = [
   {
     name: 'Github',
+    handle: '/bleonard33',
     link: 'https://github.com/bleonard33',
-    icon: 'fa-github'
+    icon: 'fa-github',
+    nav: true
   },
   {
     name: 'AngelList',
+    handle: '/brendanl',
     link: 'https://angel.co/brendanl',
-    icon: 'fa-angellist'
+    icon: 'fa-angellist',
+    nav: true
   },
   {
     name: 'LinkedIn',
-    link: 'https://www.linkedin.com/in/brendan-leonard-72a50471',
-    icon: 'fa-linkedin'
+    handle: 'Brendan Leonard',
+    link: 'linkedin.com/in/brendan-leonard',
+    icon: 'fa-linkedin',
+    nav: true
   },
   {
     name: 'Email',
-    link: 'mailto:hello@bleonard.io',
-    icon: 'fa-envelope'
+    handle: 'brendanl@alumni.unc.edu',
+    link: 'mailto:brendanl@alumni.unc.edu',
+    icon: 'fa-envelope',
+    nav: true
   }
 ]
 
