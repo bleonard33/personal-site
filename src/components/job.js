@@ -1,9 +1,12 @@
 import React from 'react';
+import { appStyle } from '../appStyle'
 
 export const Job = (props) => {
   return (
-    <div>
-      <h3>{props.job.name}</h3>
+    <div className="col-xs-12">
+      <h3 style={appStyle.subheader}>
+        {props.job.name}
+      </h3>
       <h4>
         {props.job.title}&nbsp;&bull;&nbsp;
         {props.job.location}&nbsp;&bull;&nbsp;

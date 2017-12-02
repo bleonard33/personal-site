@@ -1,27 +1,36 @@
 import React, { Component } from 'react';
 import { sections, contact, jobs, skills } from '../data'
 import { TopbarContainer } from '../containers/topbarContainer'
-import { ExperienceContainer } from '../containers/experienceContainer'
-
+import { Section } from '../components/section';
 import { Job } from '../components/job'
-import { AppStyle } from '../appStyle'
-
-const style = {
-  fontFamily: AppStyle.sans,
-}
+import { appStyle } from '../appStyle'
 
 class App extends Component {
   render() {
     return (
-      <div style={style}>
+      <div style={appStyle.main}>
         <TopbarContainer
           sections={sections}
           contact={contact}/>
-        <h1>About</h1>
-        <ExperienceContainer jobs={jobs} />
-        <h1>Education</h1>
-        <h1>Skills</h1>
-        <h1>Contact</h1>
+        <div className="container-fluid">
+          <div className="body-content">
+            <Section title='About'>
+            </Section>
+
+            <Section title='Experience'>
+              {jobs.map(job => <Job job={job} />)}
+            </Section>
+
+            <Section title='Education'>
+            </Section>
+
+            <Section title='Skills'>
+            </Section>
+
+            <Section title='Contact'>
+            </Section>
+          </div>
+        </div>
       </div>
     );
   }

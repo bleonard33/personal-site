@@ -1,19 +1,14 @@
 import React from 'react';
-import Radium from 'radium';
-import { AppStyle } from '../appStyle'
+import { appStyle } from '../appStyle'
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import { TopSocial } from './topSocial'
 import { TopSection } from './topSection'
 
-const brandStyle = {
-  fontFamily: AppStyle.slab
-}
-
 export const Topbar = (props) => (
-  <Navbar>
+  <Navbar style={appStyle.nav}>
     <Navbar.Header>
       <Navbar.Brand>
-        <div style={brandStyle}>Brendan Leonard</div>
+        <div style={appStyle.nav.brand}>Brendan Leonard</div>
       </Navbar.Brand>
       <Navbar.Toggle />
     </Navbar.Header>
