@@ -15,7 +15,9 @@ class App extends Component {
         <NavContainer
           sections={sections}
           contact={contact}/>
-        <div className="container-fluid">
+        <div 
+          style={appStyle.body}
+          className="container-fluid">
           <div className="body-content">
             <Section title='About'>
             </Section>

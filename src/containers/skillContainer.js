@@ -14,7 +14,7 @@ export class SkillContainer extends Component {
       rating.push(wholeStar);
     }
 
-    if (this.props.rating % 1 == 0.5) {
+    if (this.props.rating % 1 === 0.5) {
       rating.push(halfStar);
     }
 

@@ -39,7 +39,7 @@ export const contact = [
     handle: '/brendanl',
     link: 'https://angel.co/brendanl',
     icon: 'fa-angellist',
-    nav: true
+    nav: false
   },
   {
     name: 'LinkedIn',
@@ -54,6 +54,13 @@ export const contact = [
     link: 'mailto:brendanl@alumni.unc.edu',
     icon: 'fa-envelope',
     nav: true
+  },
+  {
+    name: 'Instagram',
+    handle: '@bml330',
+    link: 'https://www.instagram.com/bml330/',
+    icon: 'fa-instagram',
+    nav: false
   }
 ]
 
