@@ -10,7 +10,7 @@ export class SkillContainer extends Component {
 
     let rating = [];
 
-    for (let i=0; i < Math.floor(this.props.rating); i++) {
+    for (var i=0; i < Math.floor(this.props.rating); i++) {
       rating.push(wholeStar);
     }
 
@@ -19,7 +19,7 @@ export class SkillContainer extends Component {
     }
 
 
-    for (let i=0; i <= (5 - rating.length); i++) {
+    for (var i=rating.length; i < 5; i++) {
       rating.push(emptyStar)
     }
 
