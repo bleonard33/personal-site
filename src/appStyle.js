@@ -24,9 +24,19 @@ appStyle.main = {
 
 appStyle.nav = {
   marginBottom: 0,
+  borderTop: 0,
   backgroundColor: 'white',
+  textAlign: 'center',
   brand: {
     fontFamily: appStyle.fonts.slab,
+    color: appStyle.colors.charcoal,
+  },
+  sectionIcon: {
+    fontSize: '1.2em',
+    textAlign: 'center',
+  },
+  textStyle: {
+    textAlign: 'center',
   }
 }
 

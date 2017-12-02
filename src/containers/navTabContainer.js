@@ -17,19 +17,22 @@ export class NavTabContainer extends Component {
   }
 
   handleHover(event) {
+
+    const newHover = !this.state.hover;
+
     this.setState({
-      hover: !this.state.hover,
+      hover: newHover,
       iconStyle: {
-        display: !this.state.hover ? 'block' : 'none',
+        display: newHover ? 'block' : 'none',
         color: 'white'
       },
       textStyle: {
-        visibility: !this.state.hover ? 'hidden' : null,
-        height: !this.state.hover ? '0px' : null,
-        overflow: !this.state.hover ? 'hidden' : null,
+        visibility: newHover ? 'hidden' : null,
+        height: newHover ? '0px' : null,
+        overflow: newHover ? 'hidden' : null,
       },
       tabStyle: {
-        backgroundColor: !this.state.hover ? this.props.section.color : 'white'
+        backgroundColor: newHover ? this.props.section.color : 'white'
       }
     });
   }
