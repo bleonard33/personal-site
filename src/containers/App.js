@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import { appStyle } from '../appStyle';
-import { sections, contact, jobs, skills } from '../data'
+import { sections, contact, jobs, skills } from '../data';
 
-import { Navigation } from '../components/navigation'
+import { Navigation } from '../components/navigation';
 import { Section } from '../components/section';
 import { Job } from '../components/job';
 import { Education } from '../components/education';
-import { SkillCategory } from '../components/skillCategory'
+import { SkillCategory } from '../components/skillCategory';
+import { ContactLink } from '../components/contactLink';
+import { Copyright } from '../components/copyright'
 
 class App extends Component {
   render() {
@@ -43,7 +45,16 @@ class App extends Component {
             </Section>
 
             <Section title='Contact'>
+              {contact.map((link, i) =>
+                <ContactLink
+                  key={i}
+                  link={link.link}
+                  icon={link.icon}
+                  handle={link.handle} />
+              )}
             </Section>
+
+            <Copyright />
           </div>
         </div>
       </div>

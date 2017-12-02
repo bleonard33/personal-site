@@ -76,3 +76,7 @@ appStyle.skills = {
     float: 'right'
   }
 }
+
+appStyle.contact = {
+  fontSize: '16pt',
+}
