@@ -14,7 +14,10 @@ export const Copyright = (props) => (
     <div>
       &copy;
       {new Date().getFullYear()}
-      &nbsp;Brendan&nbsp;Leonard
+      &nbsp;Brendan&nbsp;Leonard <br/>
+      <a href="https://github.com/bleonard33/bleonard33.github.io">
+        Check out the source code for this site
+      </a>
     </div>
   </div>
 )
