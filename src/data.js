@@ -74,13 +74,15 @@ export const contact = [
 export const jobs = [
   {
     name: 'Numerated Growth Technologies',
-    title: 'Data Science',
+    title: 'Software Developer, Data Team',
     startDate: 'April 2017',
     endDate: 'Present',
     location: 'Boston, MA',
     description: [
-      'this is a thing i did',
-      'this is another'
+      'Initiated the conversion of a data-driven email marketing application to a three-tiered RESTful architecture using React, Flask, and PostgreSQL',
+      'Aided in the creation of an API used by partner banks to securely access machine-learned insights',
+      'Administered team AWS EC2 and RDS systems',
+      'Facilitated regression and unit testing for team applications',
     ]
   },
   {
@@ -89,7 +91,12 @@ export const jobs = [
     startDate: 'June 2014',
     endDate: 'April 2017',
     location: 'Boston, MA',
-    description: []
+    description: [
+      'Led a team in the design and creation of an data-driven enterprise sales mining tool using Django, PostgreSQL, and AngularJS',
+      'Completed data analysis projects using both supervised and unsupervised machine learning methods presented to bank leadership',
+      'Used natural language processing techniques to clean financial data and predict traits about customer habits',
+      'Architected a web scraping cluster on AWS EC2 to mine data for regulatory processes',
+    ]
   },
   {
     name: 'Carolina For The Kids Foundation',
@@ -97,7 +104,11 @@ export const jobs = [
     startDate: 'March 2013',
     endDate: 'March 2015',
     location: 'Chapel Hill, NC',
-    description: []
+    description: [
+      'Served two terms on the Executive Board of a non-profit raising over half a million dollars per year',
+      'Managed all communication channels including social media, graphic materials, multimedia, web presence, media relations, and email marketing',
+      'Orchestrated a one-day fundraising push that raised over $38,000',
+    ]
   }
 ]
 
@@ -107,15 +118,12 @@ export const skills = [
     skills: [
       {
         name: 'Python',
-        rating: 4
       },
       {
         name: 'PostgreSQL',
-        rating: 3.5
       },
       {
         name: 'Java',
-        rating: 2
       },
       {
         name: 'Flask',
@@ -148,15 +156,12 @@ export const skills = [
       },
       {
         name: 'HTML/CSS',
-        rating: 3.5
       },
       {
         name: 'JavaScript',
-        rating: 3
       },
       {
         name: 'JSX',
-        rating: 2
       },      
       {
         name: 'Bootstrap',

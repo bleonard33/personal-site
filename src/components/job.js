@@ -3,7 +3,7 @@ import { appStyle } from '../appStyle'
 
 export const Job = (props) => {
   return (
-    <div className="col-xs-12">
+    <div className="col-xs-12 col-md-6">
       <h3 style={appStyle.subheader}>
         {props.job.name}
       </h3>
