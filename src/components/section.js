@@ -11,7 +11,7 @@ export class Section extends Component {
         id={this.props.title.toLowerCase()}
         className='row'
         style={{...appStyle.section, ...{borderLeftColor: sectionColor}}}>
-        <div className='col-xs-12'>
+        <div className='container'>
           <h1 style={appStyle.header}>
             {this.props.title}
           </h1>
