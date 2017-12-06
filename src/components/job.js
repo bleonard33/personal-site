@@ -7,10 +7,19 @@ export const Job = (props) => {
       <h3 style={appStyle.subheader}>
         {props.job.name}
       </h3>
+      <h4>{props.job.title}</h4>
       <h4>
-        {props.job.title}&nbsp;&bull;&nbsp;
-        {props.job.location}&nbsp;&bull;&nbsp;
-        {props.job.startDate}&nbsp;&mdash;&nbsp;
+        <i className='fa fa-map-marker' />&nbsp;
+        {props.job.location}
+        &nbsp;&nbsp;&nbsp;
+        <a href={'http://' + props.job.website} target='_blank'>
+          <i className='fa fa-link' />&nbsp;
+          {props.job.website}
+        </a>
+      </h4>
+      <h4>
+        {props.job.startDate}
+        &nbsp;&mdash;&nbsp;
         {props.job.endDate}
       </h4>
       <ul>

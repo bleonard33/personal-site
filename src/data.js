@@ -78,6 +78,7 @@ export const jobs = [
     startDate: 'April 2017',
     endDate: 'Present',
     location: 'Boston, MA',
+    website: 'numerated.com',
     description: [
       'Initiated the conversion of a data-driven email marketing application to a three-tiered RESTful architecture using React, Flask, and PostgreSQL',
       'Aided in the creation of an API used by partner banks to securely access machine-learned insights',
@@ -91,6 +92,7 @@ export const jobs = [
     startDate: 'June 2014',
     endDate: 'April 2017',
     location: 'Boston, MA',
+    website: 'easternbank.com',
     description: [
       'Led a team in the design and creation of an data-driven enterprise sales mining tool using Django, PostgreSQL, and AngularJS',
       'Completed data analysis projects using both supervised and unsupervised machine learning methods presented to bank leadership',
@@ -104,10 +106,24 @@ export const jobs = [
     startDate: 'March 2013',
     endDate: 'March 2015',
     location: 'Chapel Hill, NC',
+    website: 'carolinaftk.org',
     description: [
       'Served two terms on the Executive Board of a non-profit raising over half a million dollars per year',
+      'Coordinated a renaming and rebranding effort including designing a logo, website, and other identity materials',
       'Managed all communication channels including social media, graphic materials, multimedia, web presence, media relations, and email marketing',
       'Orchestrated a one-day fundraising push that raised over $38,000',
+    ]
+  },
+  {
+    name: 'Carolina Union',
+    title: 'Design Assistant',
+    startDate: 'August 2012',
+    endDate: 'August 2014',
+    location: 'Chapel Hill, NC',
+    website: 'carolinaunion.unc.edu',
+    description: [
+      'Created print and digital designs for various university departments and organizations using Adobe Creative Suite',
+      'Worked with full-time staff and clients to revise materials to specifications'
     ]
   }
 ]
