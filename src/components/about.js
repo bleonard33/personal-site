@@ -13,7 +13,7 @@ export const About = (props) => (
       </h3>
       <div>
         <p>
-          Without getting too technical (check out the rest of this page for more on that), I'm currently working at a financial technology startup in downtown Boston. I've lived in and around Boston my whole live, save for the four years I escaped down south after a terrible winter. 
+          Without getting too technical (check out the rest of this page for more on that), I'm currently working at a financial technology startup in downtown Boston. I've lived in and around Boston my whole life, save for the four years I escaped down south after a terrible winter. 
         </p>
         <p>
           I attended UNC-Chapel Hill where I majored in Economics. During my time at Carolina, I ended up on the Executive Board of the Carolina For The Kids foundation which raises over half a million dollars annually for the families of UNC Children's. It became the thing I always wanted to be spending time on and leading our publicity and technology teams essentially became a full-time job for me.
