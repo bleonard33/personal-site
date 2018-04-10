@@ -73,10 +73,22 @@ export const contact = [
 
 export const jobs = [
   {
+    name: 'Center for International Development at Harvard University',
+    title: 'Backend Developer & Data Specialist',
+    startDate: 'March 2018',
+    endDate: 'Present',
+    location: 'Cambridge, MA',
+    website: 'cid.harvard.edu',
+    description: [
+      'Supports the Growth Lab research and software development initiatives through back-end technologies and data analysis',
+      'Develops enhancements for the Atlas of Economic Complexity',
+    ]
+  },
+  {
     name: 'Numerated Growth Technologies',
     title: 'Software Developer, Data Team',
     startDate: 'April 2017',
-    endDate: 'Present',
+    endDate: 'March 2018',
     location: 'Boston, MA',
     website: 'numerated.com',
     description: [
@@ -114,18 +126,18 @@ export const jobs = [
       'Orchestrated a one-day fundraising push that raised over $38,000',
     ]
   },
-  {
-    name: 'Carolina Union',
-    title: 'Design Assistant',
-    startDate: 'August 2012',
-    endDate: 'August 2014',
-    location: 'Chapel Hill, NC',
-    website: 'carolinaunion.unc.edu',
-    description: [
-      'Created print and digital designs for various university departments and organizations using Adobe Creative Suite',
-      'Worked with full-time staff and clients to revise materials to specifications'
-    ]
-  }
+  // {
+  //   name: 'Carolina Union',
+  //   title: 'Design Assistant',
+  //   startDate: 'August 2012',
+  //   endDate: 'August 2014',
+  //   location: 'Chapel Hill, NC',
+  //   website: 'carolinaunion.unc.edu',
+  //   description: [
+  //     'Created print and digital designs for various university departments and organizations using Adobe Creative Suite',
+  //     'Worked with full-time staff and clients to revise materials to specifications'
+  //   ]
+  // }
 ]
 
 export const skills = [
