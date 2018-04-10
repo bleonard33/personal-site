@@ -44,7 +44,7 @@ export const contact = [
   {
     name: 'LinkedIn',
     handle: 'Brendan Leonard',
-    link: 'linkedin.com/in/brendan-leonard',
+    link: 'https://linkedin.com/in/brendan-leonard',
     icon: 'fa-linkedin',
     nav: true
   },
