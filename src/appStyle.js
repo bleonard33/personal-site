@@ -19,7 +19,8 @@ appStyle.colors = {
 };
 
 appStyle.main = {
-  fontFamily: appStyle.fonts.sans
+  fontFamily: appStyle.fonts.sans,
+  fontSize: '12pt',
 }
 
 appStyle.nav = {
@@ -63,6 +64,11 @@ appStyle.header = {
 appStyle.subheader = {
   fontSize: '16pt',
   fontFamily: appStyle.fonts.sans,
+  color: appStyle.colors.charcoal,
+}
+
+appStyle.mappin = {
+  color: appStyle.colors.experience
 }
 
 appStyle.skills = {

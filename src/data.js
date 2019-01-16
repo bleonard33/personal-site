@@ -34,13 +34,13 @@ export const contact = [
     icon: 'fa-github',
     nav: true
   },
-  {
-    name: 'AngelList',
-    handle: '/brendanl',
-    link: 'https://angel.co/brendanl',
-    icon: 'fa-angellist',
-    nav: false
-  },
+  // {
+  //   name: 'AngelList',
+  //   handle: '/brendanl',
+  //   link: 'https://angel.co/brendanl',
+  //   icon: 'fa-angellist',
+  //   nav: false
+  // },
   {
     name: 'LinkedIn',
     handle: 'Brendan Leonard',
@@ -55,44 +55,55 @@ export const contact = [
     icon: 'fa-envelope',
     nav: true
   },
-  {
-    name: 'Instagram',
-    handle: '@bml330',
-    link: 'https://www.instagram.com/bml330/',
-    icon: 'fa-instagram',
-    nav: false
-  },
-  {
-    name: 'Résumé',
-    handle: 'Résumé',
-    link: 'https://docs.google.com/document/d/156gk-htdRILnZSx3KKp05uAWdw99Gw7NGWROTTHXSVA/edit?usp=sharing',
-    icon: 'fa-file-text-o',
-    nav: false
-  }
+  // {
+  //   name: 'Instagram',
+  //   handle: '@bml330',
+  //   link: 'https://www.instagram.com/bml330/',
+  //   icon: 'fa-instagram',
+  //   nav: false
+  // },
+  // {
+  //   name: 'Résumé',
+  //   handle: 'Résumé',
+  //   link: 'https://docs.google.com/document...,
+  //   icon: 'fa-file-text-o',
+  //   nav: false
+  // }
 ]
+
+export const about = {
+  "lede": "Hi, I'm Brendan.",
+  "blurb": [
+    "I'm a social scientist by training and a software developer by accident. I currently work as a part of the development team within the Growth Lab of the Center for International Development at Harvard University. I'm also working towards a master's degree in government and hold a bachelor's in economics.",
+    "I wrote my first lines of code during a data science internship in college and my career has been focused on developing interesting and unique data-driven tools ever since. The majority of my time since graduating has been in the worlds of startups and single-digit member Agile teams, meaning I've gotten to jump around quite a bit and gotten tastes of a myriad of projects from systems administration to UX design to machine learning. I love being thrown into unfamiliar territory and solving new problems.",
+    "Outside of work, I enjoy developing new cooking skills, traveling the world, sewing, and attempting to catch up on my massive backlog of unread books."
+  ]
+}
 
 export const jobs = [
   {
     name: 'Center for International Development at Harvard University',
-    title: 'Backend Developer & Data Specialist',
+    title: 'Back End Developer & Data Specialist',
     startDate: 'March 2018',
     endDate: 'Present',
     location: 'Cambridge, MA',
     website: 'cid.harvard.edu',
     description: [
-      'Supports the Growth Lab research and software development initiatives through back-end technologies and data analysis',
-      'Develops enhancements for the Atlas of Economic Complexity',
+      "Specify and manipulate data required for new feature enhancements for our flagship tool, the Atlas of Economic Complexity",
+      "Expand, maintain, and improve data pipeline including consolidation of various third-party data and internally-developed calculations",
+      "Administer all back end infrastructure, including our API database servers",
+      "Support software development pertaining to the Center's research projects"
     ]
   },
   {
     name: 'Numerated Growth Technologies',
-    title: 'Software Developer, Data Team',
+    title: 'Data Science Analyst',
     startDate: 'April 2017',
     endDate: 'March 2018',
     location: 'Boston, MA',
     website: 'numerated.com',
     description: [
-      'Initiated the conversion of a data-driven email marketing application to a three-tiered RESTful architecture using React, Flask, and PostgreSQL',
+      'Initiated the conversion of a data-driven email marketing application to a three-tiered RESTful architecture',
       'Aided in the creation of an API used by partner banks to securely access machine-learned insights',
       'Administered team AWS EC2 and RDS systems',
       'Facilitated regression and unit testing for team applications',
@@ -106,10 +117,10 @@ export const jobs = [
     location: 'Boston, MA',
     website: 'easternbank.com',
     description: [
-      'Led a team in the design and creation of an data-driven enterprise sales mining tool using Django, PostgreSQL, and AngularJS',
+      'Led a team in the design and creation of an data-driven enterprise sales mining tool',
       'Completed data analysis projects using both supervised and unsupervised machine learning methods presented to bank leadership',
       'Used natural language processing techniques to clean financial data and predict traits about customer habits',
-      'Architected a web scraping cluster on AWS EC2 to mine data for regulatory processes',
+      'Architected a web scraping cluster to mine data to facilitate automated regulatory checks',
     ]
   },
   {
@@ -140,106 +151,69 @@ export const jobs = [
   // }
 ]
 
+export const degrees = [
+  // {
+  //   university: "Harvard University, Extension School",
+  //   type: "Master of Liberal Arts",
+  //   field: "Government",
+  //   city: "Cambridge",
+  //   state: "MA",
+  //   startDate: "June 2018",
+  //   endDate: "Expected May 2021"
+  // },
+  {
+    university: "The University of North Carolina at Chapel Hill",
+    type: "Bachelor of Arts",
+    field: "Economics",
+    city: "Chapel Hill",
+    state: "NC",
+    startDate: "August 2011",
+    endDate: "May 2015"
+  }
+]
+
 export const skills = [
   {
     type: 'Back End',
     skills: [
-      {
-        name: 'Python',
-      },
-      {
-        name: 'PostgreSQL',
-      },
-      {
-        name: 'Java',
-      },
-      {
-        name: 'Flask',
-      },
-      {
-        name: 'Scikit-Learn',
-      },
-      {
-        name: 'Django',
-      },
-      {
-        name: 'Numpy',
-      },
-      {
-        name: 'Pandas',
-      },
-      {
-        name: 'Selenium',
-      },
-      {
-        name: 'Celery',
-      }
+      'Python',
+      'PostgreSQL',
+      'Pandas',
+      'Flask',
+      'Django',
+      'SQLAlchemy',
+      'Selenium',
+      'Ansible'
+    ]
+  },
+  {
+    type: 'Research',
+    skills: [
+      'Jupyter',
+      'Numpy',
+      'Scikit-Learn'
     ]
   },
   {
     type: 'Front End',
     skills: [
-      {
-        name: 'React',
-      },
-      {
-        name: 'HTML/CSS',
-      },
-      {
-        name: 'JavaScript',
-      },
-      {
-        name: 'JSX',
-      },      
-      {
-        name: 'Bootstrap',
-      },
-      {
-        name: 'Sass',
-      },
-      {
-        name: 'AngularJS',
-      },
-      {
-        name: 'D3',
-      },
-      {
-        name: 'NodeJS',
-      },
+      'React',
+      'HTML/CSS',
+      'JavaScript',     
+      'Bootstrap',
+      'Sass',
+      'AngularJS',
+      'D3',
+      'NodeJS'
     ]
   },
   {
     type: 'Tools & Environments',
     skills: [
-      {
-        name: 'AWS EC2',
-      },
-      {
-        name: 'Git/Github',
-      },
-      {
-        name: 'AWS RDS',
-      },
-      {
-        name: 'macOS',
-      },
-      {
-        name: 'Linux',
-      }
-    ]
-  },
-  {
-    type: 'Software',
-    skills: [
-      {
-        name: 'Adobe Illustrator',
-      },
-      {
-        name: 'Adobe PhotoShop',
-      },
-      {
-        name: 'Stata',
-      },
+      'Git/Github',
+      'AWS',
+      'macOS',
+      'Linux'
     ]
   }
 ]

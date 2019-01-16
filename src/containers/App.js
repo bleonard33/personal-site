@@ -1,13 +1,21 @@
 import React, { Component } from 'react';
 import { appStyle } from '../appStyle';
-import { sections, contact, jobs, skills } from '../data';
+
+import {
+  sections,
+  contact,
+  about,
+  jobs,
+  degrees,
+  skills 
+} from '../data';
 
 import { Navigation } from '../components/navigation';
 import { Section } from '../components/section';
 import { About } from '../components/about'
 import { Job } from '../components/job';
 import { Education } from '../components/education';
-import { SkillCategory } from '../components/skillCategory';
+import { Skill } from '../components/skill';
 import { ContactLink } from '../components/contactLink';
 import { Copyright } from '../components/copyright'
 
@@ -23,7 +31,8 @@ class App extends Component {
           <div className="body-content">
 
             <Section title='About'>
-              <About />
+              <About
+                about={about} />
             </Section>
 
             <Section title='Experience'>
@@ -35,12 +44,16 @@ class App extends Component {
             </Section>
 
             <Section title='Education'>
-              <Education />
+              {degrees.map((degree, i) =>
+              <Education
+                  key={i}
+                  degree={degree} />
+              )}
             </Section>
 
             <Section title='Skills'>
               {skills.map((category, i) =>
-                <SkillCategory
+                <Skill
                   key={i}
                   category={category} />
               )}
