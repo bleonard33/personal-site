@@ -9,7 +9,7 @@ export const Education = (props) => (
     <h4>
       Bacherlor of Arts, Economics&nbsp;&bull;&nbsp;
       Chapel Hill, NC&nbsp;&bull;&nbsp;
-      August 2011&nbsp;&mdash;&nbsp;
+      August 2011&nbsp;&ndash;&nbsp;
       May 2015
     </h4>
   </div>
