@@ -19,7 +19,7 @@ export const Job = (props) => {
       </h4>
       <h4>
         {props.job.startDate}
-        &nbsp;&mdash;&nbsp;
+        &nbsp;&ndash;&nbsp;
         {props.job.endDate}
       </h4>
       <ul>
