@@ -3,7 +3,7 @@
   "homepage": "https://bleonard33.github.io",
   "version": "0.0.2",
   "devDependencies": {
-    "bootstrap": "3.3.7",
+    "bootstrap": ">=3.4.1",
     "font-awesome": "latest",
     "gh-pages": "^1.0.0",
     "react": "^15.6.1",
