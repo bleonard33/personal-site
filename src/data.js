@@ -152,15 +152,16 @@ export const jobs = [
 ]
 
 export const degrees = [
-  // {
-  //   university: "Harvard University, Extension School",
-  //   type: "Master of Liberal Arts",
-  //   field: "Government",
-  //   city: "Cambridge",
-  //   state: "MA",
-  //   startDate: "June 2018",
-  //   endDate: "Expected May 2021"
-  // },
+  {
+    university: "Harvard University, Extension School",
+    type: "Master of Liberal Arts",
+    field: "Government",
+    city: "Cambridge",
+    state: "MA",
+    startDate: "June 2018",
+    endDate: "May 2021 (Expected)",
+    gpa: 4.0
+  },
   {
     university: "The University of North Carolina at Chapel Hill",
     type: "Bachelor of Arts",
@@ -168,7 +169,8 @@ export const degrees = [
     city: "Chapel Hill",
     state: "NC",
     startDate: "August 2011",
-    endDate: "May 2015"
+    endDate: "May 2015",
+    gpa: 3.3
   }
 ]
 
