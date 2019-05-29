@@ -9,7 +9,7 @@ export const Education = (props) => (
     <h4>
       {props.degree.type}, {props.degree.field}&nbsp;&bull;&nbsp;
       {props.degree.city}, {props.degree.state}&nbsp;&bull;&nbsp;
-      {props.degree.startDate}&nbsp;&mdash;&nbsp;
+      {props.degree.startDate}&nbsp;&ndash;&nbsp;
       {props.degree.endDate}
     </h4>
   </div>
