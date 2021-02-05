@@ -30,7 +30,7 @@ export const Navigation = (props) => (
             return (
               <NavSocial
                 key={i}
-                contact={contact}/>
+                contact={contact} />
             )
           }
         })}

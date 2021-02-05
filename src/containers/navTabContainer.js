@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { appStyle } from '../appStyle';
 import { NavTab } from '../components/navTab';
 
 export class NavTabContainer extends Component {
@@ -8,9 +9,9 @@ export class NavTabContainer extends Component {
     this.state = {
       hover: false,
       icon: 'fa ' + this.props.section.icon,
-      iconStyle: {display: 'none'},
-      textStyle: {display: null},
-      tabStyle: {backgroundColor: 'white'}
+      iconStyle: { display: 'none' },
+      textStyle: { display: null },
+      tabStyle: { backgroundColor: appStyle.colors.headerBackground }
     }
 
     this.handleHover = this.handleHover.bind(this);
@@ -19,16 +20,17 @@ export class NavTabContainer extends Component {
   handleHover(event) {
 
     const newHover = !this.state.hover;
+    const sectionColor = appStyle.colors[this.props.section.title.toLowerCase()];
 
     this.setState({
       hover: newHover,
-      iconStyle: {display: newHover ? 'block' : 'none'},
+      iconStyle: { display: newHover ? 'block' : 'none' },
       textStyle: {
         height: newHover ? '0px' : null,
         overflow: newHover ? 'hidden' : null,
       },
       tabStyle: {
-        backgroundColor: newHover ? this.props.section.color : 'white'
+        backgroundColor: newHover ? sectionColor : appStyle.colors.headerBackground
       }
     });
   }

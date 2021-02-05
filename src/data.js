@@ -1,27 +1,22 @@
 export const sections = [
   {
     title: 'About',
-    color: '#87D68D',
     icon: 'fa-user-circle-o'
   },
   {
     title: 'Experience',
-    color: '#8A4F7D',
     icon: 'fa-code-fork'
   },
   {
     title: 'Education',
-    color: '#7BAFD4',
     icon: 'fa-graduation-cap'
   },
   {
     title: 'Skills',
-    color: '#F03A47',
     icon: 'fa-database'
   },
   {
     title: 'Contact',
-    color: '#FFD275',
     icon: 'fa-vcard'
   },
 ]
@@ -74,20 +69,20 @@ export const contact = [
 export const about = {
   "lede": "Hi, I'm Brendan.",
   "blurb": [
-    "I'm a social scientist by training and a software developer by accident. I currently work as a part of the development team within the Growth Lab of the Center for International Development at Harvard University. I'm also working towards a master's degree in government and hold a bachelor's in economics.",
-    "I wrote my first lines of code during a data science internship in college and my career has been focused on developing interesting and unique data-driven tools ever since. The majority of my time since graduating has been in the worlds of startups and single-digit member Agile teams, meaning I've gotten to jump around quite a bit and gotten tastes of a myriad of projects from systems administration to UX design to machine learning. I love being thrown into unfamiliar territory and solving new problems.",
-    "Outside of work, I enjoy developing new cooking skills, traveling the world, sewing, and attempting to catch up on my massive backlog of unread books."
+    "I'm a social scientist by training and a software developer by accident. I currently work as a part of a small, agile development team with the Growth Lab of the Harvard Kennedy School. I am concurrently wrapping up a master's degree in government part-time and hold a bachelor's degree in economics from UNC-Chapel Hill.",
+    "Since the internship where I wrote my first lines of code, my career has been focused on developing interesting and unique data-driven tools. I have spent several years working in both startups and single-digit member Agile teams. I have had the opportunity to wear many hats across the lifecycle of software development and take the lead on developing full-scale software systems. I thrive off of being thrown into unfamiliar territory and coming up with solutions to challenging problems.",
+    "Outside of work, I enjoy cooking, traveling, video games, learning how to create things, attempting to catch up on my massive backlog of unread books, and hiking with my rescue dog, Zeus."
   ]
 }
 
 export const jobs = [
   {
-    name: 'Center for International Development at Harvard University',
-    title: 'Back End Developer & Data Specialist',
+    name: 'Growth Lab, Harvard Kennedy School',
+    title: 'Back End & Data Developer',
     startDate: 'March 2018',
     endDate: 'Present',
     location: 'Cambridge, MA',
-    website: 'cid.harvard.edu',
+    website: 'growthlab.cid.harvard.edu',
     description: [
       "Specify and manipulate data required for new feature enhancements for our flagship tool, the Atlas of Economic Complexity",
       "Expand, maintain, and improve data pipeline including consolidation of various third-party data and internally-developed calculations",
@@ -153,14 +148,14 @@ export const jobs = [
 
 export const degrees = [
   {
-    university: "Harvard University, Extension School",
+    university: "Harvard University",
     type: "Master of Liberal Arts",
     field: "Government",
     city: "Cambridge",
     state: "MA",
     startDate: "June 2018",
     endDate: "May 2021 (Expected)",
-    gpa: 4.0
+    gpa: 3.9
   },
   {
     university: "The University of North Carolina at Chapel Hill",
@@ -189,7 +184,7 @@ export const skills = [
     ]
   },
   {
-    type: 'Research',
+    type: 'Research & Data',
     skills: [
       'Jupyter',
       'Numpy',
@@ -201,7 +196,7 @@ export const skills = [
     skills: [
       'React',
       'HTML/CSS',
-      'JavaScript',     
+      'JavaScript',
       'Bootstrap',
       'Sass',
       'AngularJS',

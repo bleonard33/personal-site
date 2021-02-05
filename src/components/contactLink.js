@@ -7,7 +7,7 @@ export const ContactLink = (props) => (
       href={props.link}
       target="_blank"
       style={appStyle.contact}>
-      <i className={'fa ' + props.icon}> </i>
+      <i className={'fa ' + props.icon} style={appStyle.contact.icon}> </i>
       &nbsp;&nbsp;{props.handle}
     </a>
   </div>

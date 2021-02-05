@@ -7,7 +7,7 @@ import {
   about,
   jobs,
   degrees,
-  skills 
+  skills
 } from '../data';
 
 import { Navigation } from '../components/navigation';
@@ -17,7 +17,8 @@ import { Job } from '../components/job';
 import { Education } from '../components/education';
 import { Skill } from '../components/skill';
 import { ContactLink } from '../components/contactLink';
-import { Copyright } from '../components/copyright'
+import { Footer } from '../components/footer';
+
 
 class App extends Component {
   render() {
@@ -25,8 +26,8 @@ class App extends Component {
       <div style={appStyle.main}>
         <Navigation
           sections={sections}
-          contact={contact}/>
-        <div 
+          contact={contact} />
+        <div
           className="container-fluid">
           <div className="body-content">
 
@@ -45,7 +46,7 @@ class App extends Component {
 
             <Section title='Education'>
               {degrees.map((degree, i) =>
-              <Education
+                <Education
                   key={i}
                   degree={degree} />
               )}
@@ -68,10 +69,9 @@ class App extends Component {
                   handle={link.handle} />
               )}
             </Section>
-
-            <Copyright />
           </div>
         </div>
+        <Footer />
       </div>
     );
   }

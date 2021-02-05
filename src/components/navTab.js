@@ -9,10 +9,10 @@ export const NavTab = (props) => (
     onMouseLeave={props.handleHover}
     style={props.tabStyle}>
 
-    <div style={{...appStyle.nav.sectionIcon, ...props.iconStyle}}>
+    <div style={{ ...appStyle.nav.sectionIcon, ...props.iconStyle }}>
       <i className={props.icon} />
     </div>
-    <div style={{...appStyle.nav.sectionTab, ...props.textStyle}}>
+    <div style={{ ...appStyle.nav.sectionTab, ...props.textStyle }}>
       {props.section.title}
     </div>
   </NavItem>
