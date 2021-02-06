@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.js": "/bleonard33/bleonard33.github.io/static/js/main.05a5d49e.chunk.js",
-    "main.js.map": "/bleonard33/bleonard33.github.io/static/js/main.05a5d49e.chunk.js.map",
-    "runtime-main.js": "/bleonard33/bleonard33.github.io/static/js/runtime-main.1f886ebf.js",
-    "runtime-main.js.map": "/bleonard33/bleonard33.github.io/static/js/runtime-main.1f886ebf.js.map",
-    "static/css/2.150d169a.chunk.css": "/bleonard33/bleonard33.github.io/static/css/2.150d169a.chunk.css",
-    "static/js/2.feaba59b.chunk.js": "/bleonard33/bleonard33.github.io/static/js/2.feaba59b.chunk.js",
-    "static/js/2.feaba59b.chunk.js.map": "/bleonard33/bleonard33.github.io/static/js/2.feaba59b.chunk.js.map",
-    "index.html": "/bleonard33/bleonard33.github.io/index.html",
-    "static/css/2.150d169a.chunk.css.map": "/bleonard33/bleonard33.github.io/static/css/2.150d169a.chunk.css.map",
-    "static/js/2.feaba59b.chunk.js.LICENSE.txt": "/bleonard33/bleonard33.github.io/static/js/2.feaba59b.chunk.js.LICENSE.txt"
+    "main.js": "/static/js/main.bf2933ac.chunk.js",
+    "main.js.map": "/static/js/main.bf2933ac.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1f666314.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1f666314.js.map",
+    "static/css/2.150d169a.chunk.css": "/static/css/2.150d169a.chunk.css",
+    "static/js/2.feaba59b.chunk.js": "/static/js/2.feaba59b.chunk.js",
+    "static/js/2.feaba59b.chunk.js.map": "/static/js/2.feaba59b.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/static/css/2.150d169a.chunk.css.map",
+    "static/js/2.feaba59b.chunk.js.LICENSE.txt": "/static/js/2.feaba59b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.1f886ebf.js",
+    "static/js/runtime-main.1f666314.js",
     "static/css/2.150d169a.chunk.css",
     "static/js/2.feaba59b.chunk.js",
-    "static/js/main.05a5d49e.chunk.js"
+    "static/js/main.bf2933ac.chunk.js"
   ]
 }
