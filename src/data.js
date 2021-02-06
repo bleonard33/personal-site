@@ -244,46 +244,48 @@ export const degrees = [
 
 export const skills = [
   {
-    type: 'Back End',
+    type: 'Back-End Development',
     skills: [
       'Python',
       'PostgreSQL',
       'Pandas',
-      'Flask',
-      'Django',
       'SQLAlchemy',
-      'Selenium',
-      'Ansible'
-    ]
-  },
-  {
-    type: 'Research & Data',
-    skills: [
+      'Flask',
       'Jupyter',
-      'Numpy',
-      'Scikit-Learn'
+      'Scikit-Learn',
     ]
   },
   {
-    type: 'Front End',
+    type: 'Infrastructure & Tools',
+    skills: [
+      'GitHub',
+      'AWS (EC2, RDS, EB, etc.)',
+      'NGINX',
+      'Ansible',
+      'Google Analytics',
+      'macOS',
+      'Linux',
+    ]
+  },
+  {
+    type: 'Front-End Development',
     skills: [
       'React',
       'HTML/CSS',
       'JavaScript',
       'Bootstrap',
-      'Sass',
-      'AngularJS',
       'D3',
-      'NodeJS'
     ]
   },
   {
-    type: 'Tools & Environments',
+    type: 'Soft Skills',
     skills: [
-      'Git/Github',
-      'AWS',
-      'macOS',
-      'Linux'
+      'Analytical Thinking',
+      'Problem Solving',
+      'Adaptability',
+      'Collaboration',
+      'Attention to Detail',
+      'Creativity',
     ]
-  }
+  },
 ]
