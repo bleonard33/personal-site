@@ -14,7 +14,7 @@ export const Projects = (props) => (
           <Card.Body className="d-flex flex-column">
             <Card.Title>{project.title}</Card.Title>
             <Card.Subtitle>{project.subtitle}</Card.Subtitle>
-            <Card.Text>
+            <Card.Text class="font-italic" style={{ paddingTop: '0.25em' }}>
               {project.description}
             </Card.Text>
             <Button className="mt-auto" variant="dark" href={project.url} target="_blank"

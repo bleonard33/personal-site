@@ -183,32 +183,49 @@ export const degrees = [
     startDate: "June 2018",
     endDate: "May 2021",
     gpa: 3.9,
-    // projects: [
-    //   {
-    //     title: '"This Claim About Election Fraud is Disputed"',
-    //     subtitle: "Mitigating the Spread of Disinformation through Social Media in American Electoral Contexts",
-    //     url: "",
-    //     action: "Download"
-    //   },
-    //   {
-    //     title: 'SMS and GOTV',
-    //     subtitle: "Analyzing the Impact of Text Messaging on Voter Participation",
-    //     url: "",
-    //     action: "Download"
-    //   },
-    //   {
-    //     title: 'Money is (Political) Power',
-    //     subtitle: "Unrestricted Campaign Spending as a Central Threat to Democratic Function",
-    //     url: "",
-    //     action: "Download"
-    //   },
-    //   {
-    //     title: 'Addressing Cyclist Safety on Massachusetts Ave. as a Means of Equitable Development',
-    //     subtitle: "",
-    //     url: "",
-    //     action: "Download"
-    //   },
-    // ]
+    courses: [
+      "Policy Writing and Analysis Capstone (Fall 2020 / Spring 2021)",
+      "American Presidential Elections (Fall 2020)",
+      "Cyberpolitics (Spring 2020)",
+      // "Democracy and Its Discontents (Spring 2020)",
+      "Data Science for Political Campaigns (Fall 2019)",
+      // "Urban Policy (Fall 2019)",
+      "Intellectual Property (Summer 2019)",
+      "International Conflict and Cooperation (Summer 2019)",
+      // "Introduction to Graduate Studies in Government, History, and International Relations (Spring 2019)",
+      // "American Government (Fall 2018)",
+      // "Introduction to Quantitative Methods (Summer 2018)"
+    ],
+    projects: [
+      {
+        title: '"This Claim About Election Fraud is Disputed"',
+        subtitle: "Mitigating the Spread of Disinformation through Social Media in American Electoral Contexts",
+        description: "Policy Writing and Analysis Precapstone (Fall 2020)",
+        url: process.env.PUBLIC_URL + '/papers/leonard_disinformation_social_media.pdf',
+        action: "Download"
+      },
+      {
+        title: 'SMS and GOTV',
+        subtitle: "Analyzing the Impact of Text Messaging on Voter Participation",
+        description: "Cyberpolitics (Spring 2020)",
+        url: process.env.PUBLIC_URL + '/papers/leonard_sms_gotv.pdf',
+        action: "Download"
+      },
+      {
+        title: 'Money is (Political) Power',
+        subtitle: "Unrestricted Campaign Spending as a Central Threat to Democratic Function",
+        description: "Democracy and Its Discontents (Spring 2020)",
+        url: process.env.PUBLIC_URL + '/papers/leonard_money_democracy.pdf',
+        action: "Download"
+      },
+      {
+        title: 'Addressing Cyclist Safety on Massachusetts Ave. as a Means of Equitable Development',
+        subtitle: "",
+        description: "Urban Policy (Fall 2019)",
+        url: process.env.PUBLIC_URL + '/papers/leonard_mass_ave_cycling.pdf',
+        action: "Download"
+      },
+    ]
   },
   {
     university: "The University of North Carolina at Chapel Hill",

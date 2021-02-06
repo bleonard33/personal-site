@@ -145,6 +145,7 @@ appStyle.education = {
   },
   bullets: {
     fontFamily: appStyle.fonts.mono,
+    marginBottom: 0,
   },
 }
 

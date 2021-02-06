@@ -5,6 +5,17 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
+export const Courses = (props) => (
+  <Col xs={12}>
+    <div style={{ ...appStyle.h3, paddingTop: '0.5em' }}>Selected Coursework</div>
+    <ul style={appStyle.education.bullets}>
+      {props.courses.map((course, i) =>
+        <li key={i}>{course}</li>
+      )}
+    </ul>
+  </Col>
+)
+
 export const Education = (props) => (
   <Row style={appStyle.padRow}>
     <Col xs={12} style={appStyle.h2}>
@@ -29,6 +40,7 @@ export const Education = (props) => (
       <FontAwesomeIcon icon='graduation-cap' style={appStyle.education.icon} />&nbsp;&nbsp;
       {Number(props.degree.gpa).toFixed(1)} GPA
     </Col>
+    { props.degree.courses ? <Courses courses={props.degree.courses}></Courses> : null}
     { props.degree.projects ? <Projects projects={props.degree.projects} color={appStyle.colors.education}></Projects> : null}
   </Row>
 )
