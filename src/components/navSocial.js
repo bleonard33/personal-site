@@ -1,16 +1,17 @@
 import React from 'react';
-import { appStyle } from '../appStyle'
-import { NavItem } from 'react-bootstrap';
+import { appStyle } from 'appStyle'
+import Nav from 'react-bootstrap/Nav';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
 export const NavSocial = (props) => {
   return (
-    <NavItem
-      href={props.contact.link}
-      target="_blank">
-      <i
-        style={appStyle.nav.socialIcon}
-        className={'fa ' + props.contact.icon}></i>
-    </NavItem>
+    <Nav.Item
+    >
+      <Nav.Link href={props.contact.link}
+        target="_blank">
+        <FontAwesomeIcon icon={props.contact.icon} style={appStyle.nav.socialIcon} />
+      </Nav.Link>
+    </Nav.Item >
   )
 }

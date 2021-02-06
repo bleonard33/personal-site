@@ -1,67 +1,67 @@
 export const sections = [
   {
     title: 'About',
-    icon: 'fa-user-circle-o'
+    icon: 'user-alt'
   },
   {
     title: 'Experience',
-    icon: 'fa-code-fork'
+    icon: 'code-branch'
   },
   {
     title: 'Education',
-    icon: 'fa-graduation-cap'
+    icon: 'graduation-cap'
   },
   {
     title: 'Skills',
-    icon: 'fa-database'
+    icon: 'code'
   },
   {
     title: 'Contact',
-    icon: 'fa-vcard'
+    icon: 'address-card'
   },
 ]
 
 export const contact = [
   {
+    name: 'Email',
+    handle: 'brendanl@alumni.unc.edu',
+    link: 'mailto:brendanl@alumni.unc.edu',
+    icon: 'envelope',
+    nav: true
+  },
+  {
     name: 'Github',
-    handle: '/bleonard33',
+    handle: 'bleonard33',
     link: 'https://github.com/bleonard33',
-    icon: 'fa-github',
+    icon: ['fab', 'github'],
     nav: true
   },
   // {
   //   name: 'AngelList',
   //   handle: '/brendanl',
   //   link: 'https://angel.co/brendanl',
-  //   icon: 'fa-angellist',
+  //   icon: ['fab', 'angellist'],
   //   nav: false
   // },
   {
     name: 'LinkedIn',
     handle: 'Brendan Leonard',
     link: 'https://linkedin.com/in/brendan-leonard',
-    icon: 'fa-linkedin',
-    nav: true
-  },
-  {
-    name: 'Email',
-    handle: 'brendanl@alumni.unc.edu',
-    link: 'mailto:brendanl@alumni.unc.edu',
-    icon: 'fa-envelope',
+    icon: ['fab', 'linkedin'],
     nav: true
   },
   // {
   //   name: 'Instagram',
   //   handle: '@bml330',
   //   link: 'https://www.instagram.com/bml330/',
-  //   icon: 'fa-instagram',
+  //   icon: ['fab', 'instagram'],
   //   nav: false
   // },
   // {
   //   name: 'Résumé',
   //   handle: 'Résumé',
   //   link: 'https://docs.google.com/document...,
-  //   icon: 'fa-file-text-o',
+  //   icon: 'file-text-o',
   //   nav: false
   // }
 ]
@@ -77,22 +77,49 @@ export const about = {
 
 export const jobs = [
   {
-    name: 'Growth Lab, Harvard Kennedy School',
-    title: 'Back End & Data Developer',
+    company: 'Growth Lab, Harvard Kennedy School',
+    title: 'Back-End & Data Developer',
     startDate: 'March 2018',
     endDate: 'Present',
     location: 'Cambridge, MA',
     website: 'growthlab.cid.harvard.edu',
     description: [
-      "Specify and manipulate data required for new feature enhancements for our flagship tool, the Atlas of Economic Complexity",
-      "Expand, maintain, and improve data pipeline including consolidation of various third-party data and internally-developed calculations",
-      "Administer all back end infrastructure, including our API database servers",
-      "Support software development pertaining to the Center's research projects"
+      "Manage data pipelines pertaining to various platforms created by the Growth Lab including the flagship Atlas of Economic Complexity",
+      "Administer API, database, and server infrastructure for the Lab's various data visualization tools",
+      "Collaborate with researchers to conduct analysis and exploratory research contributing to platform features",
+      "Created data-driven narrative explaining 130+ countries' economic positions using dynamically-generated text",
+      "Twice-shortlisted for Kantar Information is Beautiful Awards",
+    ],
+    projects: [
+      {
+        title: 'Atlas of Economic Complexity',
+        description: "",
+        url: "https://atlas.cid.harvard.edu",
+        action: "Go"
+      },
+      {
+        title: 'Atlas Country Profiles',
+        description: "",
+        url: "https://atlas.cid.harvard.edu/countries/43",
+        action: "Go"
+      },
+      {
+        title: 'Growth Lab VizHub',
+        description: "",
+        url: "https://growthlab.app",
+        action: "Go"
+      },
+      {
+        title: 'Pandas to Postgres',
+        description: "",
+        url: "https://github.com/cid-harvard/pandas-to-postgres",
+        action: "Go"
+      },
     ]
   },
   {
-    name: 'Numerated Growth Technologies',
-    title: 'Data Science Analyst',
+    company: 'Numerated Growth Technologies',
+    title: 'Data Scientist',
     startDate: 'April 2017',
     endDate: 'March 2018',
     location: 'Boston, MA',
@@ -105,7 +132,7 @@ export const jobs = [
     ]
   },
   {
-    name: 'Eastern Bank',
+    company: 'Eastern Bank',
     title: 'Data Science Analyst',
     startDate: 'June 2014',
     endDate: 'April 2017',
@@ -119,7 +146,7 @@ export const jobs = [
     ]
   },
   {
-    name: 'Carolina For The Kids Foundation',
+    company: 'Carolina For The Kids Foundation',
     title: 'Director of Publicity',
     startDate: 'March 2013',
     endDate: 'March 2015',
@@ -149,13 +176,39 @@ export const jobs = [
 export const degrees = [
   {
     university: "Harvard University",
-    type: "Master of Liberal Arts",
+    type: "Candidate, Master of Liberal Arts",
     field: "Government",
     city: "Cambridge",
     state: "MA",
     startDate: "June 2018",
-    endDate: "May 2021 (Expected)",
-    gpa: 3.9
+    endDate: "May 2021",
+    gpa: 3.9,
+    // projects: [
+    //   {
+    //     title: '"This Claim About Election Fraud is Disputed"',
+    //     subtitle: "Mitigating the Spread of Disinformation through Social Media in American Electoral Contexts",
+    //     url: "",
+    //     action: "Download"
+    //   },
+    //   {
+    //     title: 'SMS and GOTV',
+    //     subtitle: "Analyzing the Impact of Text Messaging on Voter Participation",
+    //     url: "",
+    //     action: "Download"
+    //   },
+    //   {
+    //     title: 'Money is (Political) Power',
+    //     subtitle: "Unrestricted Campaign Spending as a Central Threat to Democratic Function",
+    //     url: "",
+    //     action: "Download"
+    //   },
+    //   {
+    //     title: 'Addressing Cyclist Safety on Massachusetts Ave. as a Means of Equitable Development',
+    //     subtitle: "",
+    //     url: "",
+    //     action: "Download"
+    //   },
+    // ]
   },
   {
     university: "The University of North Carolina at Chapel Hill",

@@ -7,20 +7,24 @@ appStyle.fonts = {
 };
 
 appStyle.colors = {
-  mainBackground: '#1b2b34',
-  mainText: '#e7e7e7',
+  mainBackground: '#1b2b34', // Gunmetal
+  mainText: '#e7e7e7', // Platinum
 
-  headerBackground: '#152128',
+  headerBackground: '#152128', // Charleston Green
   headerText: 'white',
 
-  footerBackground: '#152128',
+  footerBackground: '#152128', // Charleston Green
   footerText: 'white',
 
-  about: '#067BC2',
-  experience: '#49DCB1',
-  education: '#BA274A',
-  skills: '#F6E27F',
-  contact: '#D9DBF1',
+  cardBackground: '#0E161B', // Rich Black
+
+  linkText: '#4B9CD3', // Carolina Blue
+
+  about: '#067BC2', // Star Command Blue
+  experience: '#D62246', // Carmine
+  education: '#4B9CD3', // Carolina Blue
+  skills: '#F6E27F', // Yellow Crayola
+  contact: '#49DCB1', // Medium Aquamarine
 };
 
 appStyle.main = {
@@ -31,7 +35,7 @@ appStyle.main = {
 }
 
 appStyle.nav = {
-  marginBottom: 0,
+  padding: 0,
   borderTop: 0,
   backgroundColor: appStyle.colors.headerBackground,
   textAlign: 'center',
@@ -40,9 +44,21 @@ appStyle.nav = {
     fontFamily: appStyle.fonts.header,
     fontSize: '16pt',
     color: appStyle.colors.headerText,
+    paddingLeft: '1em',
+    paddingTop: '0.25em',
+    paddingBottom: '0.25em',
+  },
+  item: {
+    paddingTop: '0.5em',
+    paddingBottom: '0.5em',
+    marginLeft: '0.25em',
+    marginRight: '0.25em',
+  },
+  toggle: {
+    color: 'white'
   },
   sectionIcon: {
-    fontSize: '1.2em',
+    fontSize: '12pt',
     textAlign: 'center',
     color: 'white',
   },
@@ -50,6 +66,9 @@ appStyle.nav = {
     textAlign: 'center',
     fontSize: '12pt',
     color: appStyle.colors.headerText,
+  },
+  socialNav: {
+    paddingRight: '1em'
   },
   socialIcon: {
     fontSize: '1.2em',
@@ -61,44 +80,68 @@ appStyle.nav = {
 appStyle.section = {
   borderLeftWidth: '16px',
   borderLeftStyle: 'solid',
-  paddingLeft: '20px',
-  paddingBottom: '20px'
+  paddingTop: '20px',
+  paddingBottom: '20px',
+  idLinkPadding: {
+    marginTop: '-1.5em',
+    paddingBottom: '1.5em',
+    display: 'block'
+  }
 }
 
-appStyle.header = {
+appStyle.h1 = {
   fontSize: '20pt',
   fontFamily: appStyle.fonts.header,
-  fontWeight: 900,
-  textAlign: 'left'
+  fontWeight: 700,
+  textAlign: 'left',
+  color: appStyle.colors.headerText
 }
 
-appStyle.subheader = {
-  fontSize: '16pt',
+appStyle.h2 = {
+  fontSize: '18pt',
   fontFamily: appStyle.fonts.body,
-  color: appStyle.colors.charcoal,
+  color: appStyle.colors.headerText,
+}
+
+appStyle.h3 = {
+  fontSize: '14pt',
+  fontFamily: appStyle.fonts.body,
+  color: appStyle.colors.headerText
+}
+
+appStyle.padRow = {
+  paddingBottom: '1em'
+}
+
+appStyle.project = {
+  deck: {
+    paddingTop: '1em'
+  },
+  card: {
+    backgroundColor: appStyle.colors.cardBackground,
+    width: '18rem'
+  },
+  button: {
+    border: 'none',
+  },
 }
 
 appStyle.job = {
   icon: {
     color: appStyle.colors.experience,
   },
-  detail: {
-    paddingRight: '1em',
-  },
   link: {
     color: appStyle.colors.mainText,
   },
   bullets: {
     fontFamily: appStyle.fonts.mono,
+    marginBottom: 0,
   },
 }
 
 appStyle.education = {
   icon: {
     color: appStyle.colors.education,
-  },
-  detail: {
-    paddingRight: '1em',
   },
   bullets: {
     fontFamily: appStyle.fonts.mono,
@@ -110,11 +153,10 @@ appStyle.skills = {
 }
 
 appStyle.contact = {
-  fontSize: '16pt',
-  color: appStyle.colors.mainText,
-  icon: {
-    color: appStyle.colors.contact,
-  }
+  fontSize: '14pt',
+  backgroundColor: appStyle.colors.contact,
+  marginLeft: '0.5em',
+  marginRight: '0.5em'
 }
 
 appStyle.footer = {

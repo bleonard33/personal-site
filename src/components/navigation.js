@@ -1,22 +1,22 @@
 import React from 'react';
-import { appStyle } from '../appStyle'
-import { Navbar, Nav } from 'react-bootstrap';
-import { NavSocial } from './navSocial'
-import { NavTabContainer } from '../containers/navTabContainer'
+import { appStyle } from 'appStyle'
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import { NavSocial } from 'components/navSocial'
+import { NavTabContainer } from 'containers/navTabContainer'
 
 export const Navigation = (props) => (
   <Navbar
     style={appStyle.nav}
-    staticTop >
-    <Navbar.Header>
-      <Navbar.Brand>
-        <div style={appStyle.nav.brand}>
-          Brendan Leonard
+    bg={appStyle.nav.backgroundColor}
+    sticky="top" collapseOnSelect expand="md" variant="dark">
+    <Navbar.Brand>
+      <div style={appStyle.nav.brand}>
+        Brendan Leonard
         </div>
-      </Navbar.Brand>
-      <Navbar.Toggle />
-    </Navbar.Header>
-    <Navbar.Collapse>
+    </Navbar.Brand>
+    <Navbar.Toggle style={appStyle.nav.toggle} aria-controls="responsive-navbar-nav" />
+    <Navbar.Collapse id="responsive-navbar-nav">
       <Nav>
         {props.sections.map((section, i) =>
           <NavTabContainer
@@ -24,7 +24,7 @@ export const Navigation = (props) => (
             section={section} />
         )}
       </Nav>
-      <Nav pullRight>
+      <Nav className="ml-auto" style={appStyle.nav.socialNav}>
         {props.contact.map((contact, i) => {
           if (contact.nav) {
             return (
@@ -36,5 +36,7 @@ export const Navigation = (props) => (
         })}
       </Nav>
     </Navbar.Collapse>
-  </Navbar>
+  </Navbar >
 )
+
+export default Navigation;

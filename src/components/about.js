@@ -1,21 +1,23 @@
 import React from 'react';
-import { appStyle } from '../appStyle';
-import { Image } from 'react-bootstrap';
+import { appStyle } from 'appStyle';
+import Image from 'react-bootstrap/Image';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 export const About = (props) => (
-  <div>
-    <div className="col-xs-12 col-sm-9 col-md-10">
-      <h3 style={appStyle.subheader}>
+  <Row>
+    <Col xs={12} sm={9}>
+      <h3 style={appStyle.h2}>
         {props.about.lede}
       </h3>
       <div>
         {props.about.blurb.map((paragraph, i) =>
-          <p>{paragraph}</p>
+          <p key={i}>{paragraph}</p>
         )}
       </div>
-    </div>
-    <div className="col-xs-12 col-sm-3 col-md-2">
-      <Image src='headshot_z.jpeg' responsive circle />
-    </div>
-  </div>
+    </Col>
+    <Col xs={12} sm={3}>
+      <Image fluid src={process.env.PUBLIC_URL + '/headshot_z.jpeg'} rounded />
+    </Col>
+  </Row>
 )

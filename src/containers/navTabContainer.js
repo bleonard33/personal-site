@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { appStyle } from '../appStyle';
-import { NavTab } from '../components/navTab';
+import { appStyle } from 'appStyle';
+import { NavTab } from 'components/navTab';
 
 export class NavTabContainer extends Component {
   constructor(props) {
