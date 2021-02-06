@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/Row';
 import { appStyle } from 'appStyle';
 
 import {
+  headerName,
   sections,
   contact,
   about,
@@ -33,6 +34,7 @@ class App extends Component {
     return (
       <div style={appStyle.main}>
         <Navigation
+          headerName={headerName}
           sections={sections}
           contact={contact} />
         <Container

@@ -36,6 +36,13 @@ export const Education = (props) => (
       &nbsp;&ndash;&nbsp;
       {props.degree.endDate}
     </Col>
+    { props.degree.awards
+      ? <Col xs={12} lg={3}>
+        <FontAwesomeIcon icon='medal' style={appStyle.education.icon} />&nbsp;&nbsp;
+        {props.degree.awards}
+      </Col>
+      : null
+    }
     <Col xs={12} lg={3}>
       <FontAwesomeIcon icon='graduation-cap' style={appStyle.education.icon} />&nbsp;&nbsp;
       {Number(props.degree.gpa).toFixed(1)} GPA

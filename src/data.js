@@ -1,3 +1,5 @@
+export const headerName = 'Brendan Leonard'
+
 export const sections = [
   {
     title: 'About',
@@ -71,7 +73,7 @@ export const about = {
   "blurb": [
     "I'm a social scientist by training and a software developer by accident. I currently work as a part of a small, agile development team with the Growth Lab of the Harvard Kennedy School. I am concurrently wrapping up a master's degree in government part-time and hold a bachelor's degree in economics from UNC-Chapel Hill.",
     "Since the internship where I wrote my first lines of code, my career has been focused on developing interesting and unique data-driven tools. I have spent several years working in both startups and single-digit member Agile teams. I have had the opportunity to wear many hats across the lifecycle of software development and take the lead on developing full-scale software systems. I thrive off of being thrown into unfamiliar territory and coming up with solutions to challenging problems.",
-    "Outside of work, I enjoy cooking, traveling, video games, learning how to create things, attempting to catch up on my massive backlog of unread books, and hiking with my rescue dog, Zeus."
+    "Outside of work, I enjoy cooking, traveling, playing video games, learning how to create things, attempting to catch up on my massive backlog of unread books, and hiking with my rescue dog, Zeus."
   ]
 }
 
@@ -235,7 +237,8 @@ export const degrees = [
     state: "NC",
     startDate: "August 2011",
     endDate: "May 2015",
-    gpa: 3.3
+    gpa: 3.3,
+    awards: "Honors Program"
   }
 ]
 

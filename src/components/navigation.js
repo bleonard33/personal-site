@@ -11,9 +11,9 @@ export const Navigation = (props) => (
     bg={appStyle.nav.backgroundColor}
     sticky="top" collapseOnSelect expand="md" variant="dark">
     <Navbar.Brand>
-      <div style={appStyle.nav.brand}>
-        Brendan Leonard
-        </div>
+      <a href="#" style={appStyle.nav.brand}>
+        {props.headerName}
+      </a>
     </Navbar.Brand>
     <Navbar.Toggle style={appStyle.nav.toggle} aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
