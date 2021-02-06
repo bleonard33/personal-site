@@ -238,7 +238,7 @@ export const degrees = [
     startDate: "August 2011",
     endDate: "May 2015",
     gpa: 3.3,
-    awards: "Honors Program"
+    awards: "Public Service Scholar"
   }
 ]
 
