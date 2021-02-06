@@ -1,10 +1,10 @@
 {
-  "name": "bleonard.dev",
+  "name": "personal-site",
   "description": "custom professional webpage",
   "homepage": "https://bleonard.dev",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bleonard33/bleonard33.github.io"
+    "url": "https://github.com/bleonard33/personal-site"
   },
   "version": "1.0.0",
   "dependencies": {
