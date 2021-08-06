@@ -192,7 +192,7 @@ export const degrees = [
     startDate: "June 2018",
     endDate: "May 2021",
     gpa: 3.9,
-    awards: "Dean's List Academic Achievement Award",
+    awards: "Dean's List Award",
     courses: [
       "Policy Writing and Analysis Capstone (Fall 2020 / Spring 2021)",
       "American Presidential Elections (Fall 2020)",
