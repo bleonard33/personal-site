@@ -71,7 +71,7 @@ export const contact = [
 export const about = {
   "lede": "Hi, I'm Brendan.",
   "blurb": [
-    "I'm a social scientist by training and a software developer by accident. I currently work as a part of a small, agile development team with the Growth Lab of the Harvard Kennedy School. I am concurrently wrapping up a master's degree in government part-time and hold a bachelor's degree in economics from UNC-Chapel Hill.",
+    "I'm a social scientist by training and a software developer by accident. I currently work as a part of a small, agile development team within the Growth Lab of the Harvard Kennedy School. I completed a master's degree in government in May 2021 while working full-time at Harvard and hold a bachelor's degree in economics from UNC-Chapel Hill.",
     "Since the internship where I wrote my first lines of code, my career has been focused on developing interesting and unique data-driven tools. I have spent several years working in both startups and single-digit member Agile teams. I have had the opportunity to wear many hats across the lifecycle of software development and take the lead on developing full-scale software systems. I thrive off of being thrown into unfamiliar territory and coming up with solutions to challenging problems.",
     "Outside of work, I enjoy cooking, traveling, playing video games, learning how to create things, attempting to catch up on my massive backlog of unread books, and hiking with my rescue dog, Zeus."
   ]
@@ -86,7 +86,8 @@ export const jobs = [
     location: 'Cambridge, MA',
     website: 'growthlab.cid.harvard.edu',
     description: [
-      "Manage data pipelines pertaining to various platforms created by the Growth Lab including the flagship Atlas of Economic Complexity",
+      "Built and maintain all data infrastructure for Metroverse platform detailing economic composition of 1,000+ cities around the world",
+      "Manage data pipelines pertaining to various platforms created by the Growth Lab including Metroverse and the Atlas of Economic Complexity",
       "Administer API, database, and server infrastructure for the Lab's various data visualization tools",
       "Collaborate with researchers to conduct analysis and exploratory research contributing to platform features",
       "Created data-driven narrative explaining 130+ countries' economic positions using dynamically-generated text",
@@ -94,26 +95,32 @@ export const jobs = [
     ],
     projects: [
       {
+        title: 'Metroverse',
+        subtitle: "The Growth Lab's Urban Econony Navigator",
+        url: "https://metroverse.cid.harvard.edu",
+        action: "Go"
+      },
+      {
         title: 'Atlas of Economic Complexity',
-        description: "",
+        subtitle: "",
         url: "https://atlas.cid.harvard.edu",
         action: "Go"
       },
+      // {
+      //   title: 'Atlas Country Profiles',
+      //   subtitle: "",
+      //   url: "https://atlas.cid.harvard.edu/countries/43",
+      //   action: "Go"
+      // },
       {
-        title: 'Atlas Country Profiles',
-        description: "",
-        url: "https://atlas.cid.harvard.edu/countries/43",
-        action: "Go"
-      },
-      {
-        title: 'Growth Lab VizHub',
-        description: "",
+        title: 'Harvard Growth Lab Viz Hub',
+        subtitle: "",
         url: "https://growthlab.app",
         action: "Go"
       },
       {
-        title: 'Pandas to Postgres',
-        description: "",
+        title: 'Pandas-to-Postgres',
+        subtitle: "",
         url: "https://github.com/cid-harvard/pandas-to-postgres",
         action: "Go"
       },
@@ -178,13 +185,14 @@ export const jobs = [
 export const degrees = [
   {
     university: "Harvard University",
-    type: "Candidate, Master of Liberal Arts",
+    type: "Master of Liberal Arts",
     field: "Government",
     city: "Cambridge",
     state: "MA",
     startDate: "June 2018",
     endDate: "May 2021",
     gpa: 3.9,
+    awards: "Dean's List Academic Achievement Award",
     courses: [
       "Policy Writing and Analysis Capstone (Fall 2020 / Spring 2021)",
       "American Presidential Elections (Fall 2020)",
