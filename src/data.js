@@ -38,13 +38,6 @@ export const contact = [
     icon: ['fab', 'github'],
     nav: true
   },
-  // {
-  //   name: 'AngelList',
-  //   handle: '/brendanl',
-  //   link: 'https://angel.co/brendanl',
-  //   icon: ['fab', 'angellist'],
-  //   nav: false
-  // },
   {
     name: 'LinkedIn',
     handle: 'Brendan Leonard',
@@ -52,13 +45,6 @@ export const contact = [
     icon: ['fab', 'linkedin'],
     nav: true
   },
-  // {
-  //   name: 'Instagram',
-  //   handle: '@bml330',
-  //   link: 'https://www.instagram.com/bml330/',
-  //   icon: ['fab', 'instagram'],
-  //   nav: false
-  // },
   // {
   //   name: 'Résumé',
   //   handle: 'Résumé',
@@ -72,26 +58,26 @@ export const about = {
   "lede": "Hi, I'm Brendan.",
   "blurb": [
     "I'm a social scientist by training and a software developer by accident. I currently work as a part of a small, agile development team within the Growth Lab of the Harvard Kennedy School. I completed a master's degree in government in May 2021 while working full-time at Harvard and hold a bachelor's degree in economics from UNC-Chapel Hill.",
-    "Since the internship where I wrote my first lines of code, my career has been focused on developing interesting and unique data-driven tools. I have spent several years working in both startups and single-digit member Agile teams. I have had the opportunity to wear many hats across the lifecycle of software development and take the lead on developing full-scale software systems. I thrive off of being thrown into unfamiliar territory and coming up with solutions to challenging problems.",
-    "Outside of work, I enjoy cooking, traveling, playing video games, learning how to create things, attempting to catch up on my massive backlog of unread books, and hiking with my rescue dog, Zeus."
+    "Since the internship where I wrote my first lines of code, my career has been focused on developing interesting and unique data-driven tools. I have had the opportunity to wear many hats across the lifecycle of software development and take the lead on developing full-scale software systems. I thrive off of being thrown into unfamiliar territory and coming up with solutions to challenging problems.",
+    "Outside of work, I enjoy traveling, learning how to create things, attempting to catch up on my massive backlog of unread books, playing Dungeons & Dragons, and hiking with my rescue dog, Zeus."
   ]
 }
 
 export const jobs = [
   {
     company: 'Growth Lab, Harvard Kennedy School',
-    title: 'Back-End & Data Developer',
+    title: 'Senior Back-End Developer',
     startDate: 'March 2018',
     endDate: 'Present',
     location: 'Cambridge, MA',
     website: 'growthlab.cid.harvard.edu',
     description: [
-      "Built and maintain all data infrastructure for Metroverse platform detailing economic composition of 1,000+ cities around the world",
-      "Manage data pipelines pertaining to various platforms created by the Growth Lab including Metroverse and the Atlas of Economic Complexity",
-      "Administer API, database, and server infrastructure for the Lab's various data visualization tools",
+      "Lead all back-end and data infrastructure for tools published by the Growth Lab, including the Atlas of Economic Complexity and Metroverse",
+      "Build new digital products through the entire development lifecycle for global userbases spanning academia, government, and industry",
+      "Administer data pipelines, APIs, databases, and server infrastructure for all data visualization tools",
+      "Supervise and mentor junior team members through code review, planning upcoming projects, and individual coaching",
       "Collaborate with researchers to conduct analysis and exploratory research contributing to platform features",
-      "Created data-driven narrative explaining 130+ countries' economic positions using dynamically-generated text",
-      "Twice-shortlisted for Kantar Information is Beautiful Awards",
+      "Awarded Silver in the 2022 Information is Beautiful Awards for Metroverse in the Business Analytics category",
     ],
     projects: [
       {
@@ -106,24 +92,24 @@ export const jobs = [
         url: "https://atlas.cid.harvard.edu",
         action: "Go"
       },
-      // {
-      //   title: 'Atlas Country Profiles',
-      //   subtitle: "",
-      //   url: "https://atlas.cid.harvard.edu/countries/43",
-      //   action: "Go"
-      // },
+      {
+        title: 'Unraveling the Complexity',
+        subtitle: "A User-centered Design Process for Narrative Visualization",
+        url: "https://growthlab.cid.harvard.edu/files/growthlab/files/2022-10-cid-fellows-wp-136-unraveling-complexity.pdf",
+        action: "Download"
+      },
       {
         title: 'Harvard Growth Lab Viz Hub',
         subtitle: "",
         url: "https://growthlab.app",
         action: "Go"
       },
-      {
-        title: 'Pandas-to-Postgres',
-        subtitle: "",
-        url: "https://github.com/cid-harvard/pandas-to-postgres",
-        action: "Go"
-      },
+      // {
+      //   title: 'Pandas-to-Postgres',
+      //   subtitle: "",
+      //   url: "https://github.com/cid-harvard/pandas-to-postgres",
+      //   action: "Go"
+      // },
     ]
   },
   {
@@ -197,11 +183,11 @@ export const degrees = [
       "Policy Writing and Analysis Capstone (Fall 2020 / Spring 2021)",
       "American Presidential Elections (Fall 2020)",
       "Cyberpolitics (Spring 2020)",
-      // "Democracy and Its Discontents (Spring 2020)",
+      "Democracy and Its Discontents (Spring 2020)",
       "Data Science for Political Campaigns (Fall 2019)",
       // "Urban Policy (Fall 2019)",
       "Intellectual Property (Summer 2019)",
-      "International Conflict and Cooperation (Summer 2019)",
+      // "International Conflict and Cooperation (Summer 2019)",
       // "Introduction to Graduate Studies in Government, History, and International Relations (Spring 2019)",
       // "American Government (Fall 2018)",
       // "Introduction to Quantitative Methods (Summer 2018)"
@@ -260,18 +246,16 @@ export const skills = [
       'SQLAlchemy',
       'Flask',
       'Jupyter',
-      'Scikit-Learn',
     ]
   },
   {
     type: 'Infrastructure & Tools',
     skills: [
       'GitHub',
-      'AWS (EC2, RDS, EB, etc.)',
+      'AWS (EC2, RDS, etc.)',
       'NGINX',
       'Ansible',
-      'Google Analytics',
-      'macOS',
+      'Gunicorn',
       'Linux',
     ]
   },

@@ -21,8 +21,8 @@
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
-    "gh-pages": "^1.0.0",
-    "react-scripts": "^4.0.2"
+    "gh-pages": "^4.0.0",
+    "react-scripts": "^5.0.1"
   },
   "presets": [
     "@babel/preset-react"

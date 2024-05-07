@@ -17,7 +17,7 @@ export const About = (props) => (
       </div>
     </Col>
     <Col xs={12} sm={3}>
-      <Image fluid src={process.env.PUBLIC_URL + '/headshot_z.jpeg'} rounded />
+      <Image fluid src={process.env.PUBLIC_URL + '/headshot.jpeg'} rounded />
     </Col>
   </Row>
 )
