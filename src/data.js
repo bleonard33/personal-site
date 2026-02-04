@@ -70,7 +70,7 @@ export const jobs = [
     startDate: 'March 2018',
     endDate: 'Present',
     location: 'Cambridge, MA',
-    website: 'growthlab.cid.harvard.edu',
+    website: 'growthlab.hks.harvard.edu',
     description: [
       "Lead all back-end and data infrastructure for tools published by the Growth Lab, including the Atlas of Economic Complexity and Metroverse",
       "Build new digital products through the entire development lifecycle for global userbases spanning academia, government, and industry",
@@ -81,28 +81,34 @@ export const jobs = [
     ],
     projects: [
       {
-        title: 'Metroverse',
-        subtitle: "The Growth Lab's Urban Econony Navigator",
-        url: "https://metroverse.cid.harvard.edu",
-        action: "Go"
-      },
-      {
-        title: 'Atlas of Economic Complexity',
+        title: 'The Atlas of Economic Complexity',
         subtitle: "",
-        url: "https://atlas.cid.harvard.edu",
+        url: "https://atlas.hks.harvard.edu",
         action: "Go"
       },
       {
-        title: 'Unraveling the Complexity',
-        subtitle: "A User-centered Design Process for Narrative Visualization",
-        url: "https://growthlab.cid.harvard.edu/files/growthlab/files/2022-10-cid-fellows-wp-136-unraveling-complexity.pdf",
-        action: "Download"
+        title: 'Tackling Discrepancies in Trade Data',
+        subtitle: "The Harvard Growth Lab International Trade Datasets",
+        url: "https://rdcu.be/e2kOg",
+        action: "Read Paper"
       },
       {
         title: 'Harvard Growth Lab Viz Hub',
         subtitle: "",
         url: "https://growthlab.app",
         action: "Go"
+      },
+      // {
+      //   title: 'Metroverse',
+      //   subtitle: "The Growth Lab's Urban Econony Navigator",
+      //   url: "https://metroverse.hks.harvard.edu",
+      //   action: "Go"
+      // },
+      {
+        title: 'Unraveling the Complexity',
+        subtitle: "A User-centered Design Process for Narrative Visualization",
+        url: "https://growthlab.hks.harvard.edu/wp-content/uploads/2022/11/2022-10-cid-fellows-wp-136-unraveling-complexity.pdf",
+        action: "Read Paper"
       },
       // {
       //   title: 'Pandas-to-Postgres',
